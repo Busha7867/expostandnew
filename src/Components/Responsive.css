@@ -1,0 +1,4123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+a {
+    text-decoration: none
+}
+
+html {
+    scroll-behavior: smooth
+}
+
+button {
+    cursor: pointer
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 15px
+}
+
+@media screen and (max-width:1266px) {
+    .container {
+        max-width: 1024px
+    }
+
+    .d_btn {
+        font-size: 11px
+    }
+
+    nav a {
+        font-size: 14px
+    }
+
+    .email-contact>ul {
+        font-size: 12px
+    }
+}
+
+@media screen and (max-width:1220px) {
+
+    .email-contact span,
+    nav a,
+    nav ul ul li a {
+        font-size: 13px
+    }
+
+    .container {
+        max-width: 960px
+    }
+
+    .row .col-d-5 {
+        flex-basis: 41.66%;
+        max-width: 41.66%
+    }
+
+    .row .col-d-6 {
+        flex-basis: 50%;
+        max-width: 50%
+    }
+
+    .row .col-d-7 {
+        flex-basis: 58.33%;
+        max-width: 58.33%
+    }
+/* 
+    .custom-2 .custom-box,
+    .row .col-d-12 {
+        max-width: 100%
+    } */
+
+    .row .col-d-12 {
+        flex-basis: 100%
+    }
+
+    nav a {
+        padding: 14px 15px
+    }
+
+    .email-contact {
+        left: 0;
+        margin: 0
+    }
+
+    .Delivery-btn {
+        text-align: right
+    }
+
+    .background-2 .d_btn {
+        padding: 6px;
+        font-size: 11px
+    }
+
+    .background-2 .download_btn {
+        left: 3rem
+    }
+
+    button {
+        left: 0;
+        padding: 8px 10px
+    }
+
+    .Expo-logo {
+        top: 0;
+        width: 89%
+    }
+
+    .background-2 .email-contact>ul {
+        font-size: 12px
+    }
+
+    nav ul ul li a {
+        padding: 1px 14px
+    }
+
+    .background-2 .email-contact {
+        left: 1rem
+    }
+
+    .company .company_box::before {
+        left: 20px;
+        top: -5px
+    }
+
+    .company-1 .paragraph1 {
+        left: 14rem
+    }
+
+    .company-2 .skilss_bar {
+        width: 82%
+    }
+
+    .button {
+        border: none;
+        font-size: 11px;
+        padding: 0
+    }
+
+    .btn-quote .work-4 iframe {
+        width: 106%
+    }
+
+    .work-5 .article_grid {
+        display: grid;
+        grid-template-columns: 320px 320px 320px;
+        margin: 0 -9px
+    }
+
+    .grid-1 .btn {
+        margin: 1rem 18rem
+    }
+
+    .btn-quote {
+        width: auto;
+        left: 5rem
+    }
+
+    .quote {
+        top: -29px
+    }
+
+    .work-4 .bloc-tabs {
+        display: flex;
+        margin-bottom: 2rem
+    }
+
+    .form-1 #form {
+        margin: 2em -3em
+    }
+
+    .form-1 .input-box input {
+        padding: 12px 25px;
+        border: 1px solid #a8cf45;
+        border-radius: .2rem;
+        font-size: 15px
+    }
+
+    .form-1 .form-btn {
+        width: 60%;
+        margin: 20px
+    }
+
+    .form-1 .threeD_para {
+        font-size: 31px;
+        margin: 15px 0
+    }
+
+    .testimonial_1 .big_image,
+    .work-4 iframe {
+        width: 100%
+    }
+
+    .contact-1 .contact_head {
+        font-size: 2rem
+    }
+
+    .contact-1 .contact_para img {
+        width: 14%
+    }
+
+    .contact-2 .contact_flex {
+        grid-template-columns: 300px 300px;
+        column-gap: 105px;
+        margin: auto
+    }
+
+    .contact-2 .contact_card {
+        margin: 20px -25px
+    }
+
+    .custom-2 .custompara,
+    .custom-2 .excel-para,
+    .custom-2 .intro-para3,
+    .double-2 .doublecustom,
+    .footer-1 .footer-para,
+    .germany-2 .dpara,
+    .germany-2 .germanyparastand,
+    .global-2 .globalpara,
+    .graphic-2 .intro-para3,
+    .team-2 .teamexpertize {
+        font-size: 19px
+    }
+
+    .footer-1 .social-container {
+        height: 55px
+    }
+
+    .footer-1 .footer_link .footer-lists a {
+        font-size: 19px;
+        line-height: 34px
+    }
+
+    .universe-1 .universe-list {
+        color: #fff;
+        margin: 0 50px
+    }
+
+    .port_content .bloc-tabs ul {
+        display: flex;
+        justify-content: center;
+        margin: 22px
+    }
+
+    .port_content .gallery_item {
+        GRID-TEMPLATE-COLUMNS: 300px 300px 300px;
+        column-gap: 16px;
+        border-radius: 1px;
+        row-gap: 20px
+    }
+
+    .blog-1 .blog_image {
+        left: -4rem;
+        top: 14%
+    }
+
+    .blog-1 .blog_image3 {
+        margin: 23px 4rem
+    }
+
+    .blog-2 .blog_gallery {
+        display: grid;
+        grid-template-columns: 400px 400px;
+        gap: 60px;
+        margin: auto
+    }
+
+    .blog-2 .blog_para {
+        margin-top: 60px
+    }
+
+    .blog-2 .image_icon img {
+        margin-left: 151px
+    }
+
+    .blog-2 .image_icon::before {
+        left: 97px
+    }
+
+    .audio_two .germanpara,
+    .construction-2 .germanpara,
+    .construction-2 .germanyparastand,
+    .double-1 .custompara,
+    .double-2 .doublepara,
+    .germany-2 .germanpara,
+    .global-2 .paragraph,
+    .graphic-2 .graphicpara,
+    .stanbuilder-1 .gpara,
+    .stanbuilder-1 .intro-para3,
+    .team-2 .team_para,
+    .testimonial_2 .details .job,
+    .testimonial_2 .details .name {
+        font-size: 18px
+    }
+
+    .design-2 .german_para,
+    .germany-2 .german_para,
+    .stanbuilder-1 .german_para {
+        padding: 0 24px
+    }
+
+    .audio_two #stickbox,
+    .audio_two .audiohide,
+    .construction-2 #stickbox,
+    .construction-2 .audiohide,
+    .design-2 #stickbox,
+    .design-2 .audiohide,
+    .germany-2 #stickbox,
+    .graphic-2 #stickbox,
+    .graphic-2 .audiohide,
+    .stanbuilder-1 #stickbox,
+    .stanbuilder-1 .audiohide {
+        display: none
+    }
+
+    .construction-2 .gif_para,
+    .design-2 .germanpara {
+        font-size: 17px
+    }
+
+    .design-2 .animation_para {
+        font-size: 15px
+    }
+
+    .design-2 .gif_para {
+        left: -3rem;
+        font-size: 18px;
+        background: #a8cf458f
+    }
+
+    .design-2 .juMGlC .data_items,
+    .germany-2 .iiPdHR h1 {
+        font-size: 20px
+    }
+
+    .design-2 .gifrow {
+        margin-bottom: 2rem
+    }
+
+    .graphic-1 .graphic_imagebox img {
+        margin-left: 2rem
+    }
+
+    .graphic-1 .graphic_heading {
+        margin: 30% 11%;
+        font-size: 2rem
+    }
+
+    .graphic-2 .gif_para {
+        background: #fff;
+        font-size: 17px
+    }
+
+    .audio .visual video {
+        width: 94%
+    }
+
+    .audio .audiovisual_heading {
+        font-size: 1.5rem;
+        padding: 20px;
+        backdrop-filter: blur(14px);
+        margin-top: 21%
+    }
+
+    .audio_two .audioHeading,
+    .custom-2 .customheading2 {
+        font-size: 1.5rem;
+        font-weight: 500
+    }
+
+    .audio_two .aaudio_flex i {
+        padding: 0 8px
+    }
+
+    .germany-1 .glassEffect {
+        margin-top: 3%;
+        margin-bottom: 4rem
+    }
+
+    .germany-1 .glassEffect h1 {
+        font-size: 3rem
+    }
+
+    .germany-2 .germany_head {
+        font-size: 1.6rem;
+        font-weight: 500
+    }
+
+    .germany-2 .custom_list li {
+        font-size: 18px;
+        padding: 10px 24px
+    }
+
+    .germany-2 .excel-para {
+        font-size: 19px;
+        margin: 10px
+    }
+
+    .germany-2 .german_paragraph p {
+        font-size: 18px;
+        padding: 10px 20px
+    }
+
+    .germany-2 .cities_box {
+        width: auto
+    }
+
+    .germany-2 .cities {
+        backdrop-filter: none
+    }
+
+    .germany-2 .cities_links {
+        grid-template-columns: 170px 170px 170px;
+        column-gap: 141px
+    }
+
+    .germany-2 .cities_item,
+    .testimonial_1 .mainclient_content p {
+        font-size: 1.3rem
+    }
+
+    .germany-2 .cities_hd,
+    .testimonial_2 .test_heading {
+        font-size: 1.4rem;
+        font-weight: 500
+    }
+
+    .custom-1 .customimage {
+        height: 100%;
+        margin-top: 2rem
+    }
+
+    .custom-1 .customstand_para {
+        margin-bottom: 6rem
+    }
+
+    .custom-1 .customstand {
+        font-size: 1.7rem
+    }
+
+    .custom-2 .video-border {
+        margin: auto
+    }
+
+    .custom-2 .paracustom {
+        font-size: 16px;
+        margin-top: 3rem;
+        padding: 0 20px
+    }
+
+    .custom-2 .customheading3 {
+        font-weight: 500;
+        padding: 0 20px;
+        font-size: 1.4rem
+    }
+
+    .custom-2 .custom_list {
+        padding: 0 20px;
+        font-size: 16px
+    }
+
+    .custom-2 .customhead,
+    .custom-2 .customheading4,
+    .double-1 .customheading2,
+    .double-2 .customheading2,
+    .global-2 .globalheading {
+        font-weight: 500
+    }
+
+    .custom-2 .custom_boxes {
+        display: grid;
+        grid-template-columns: 430px 430px;
+        margin: 0 60px
+    }
+
+    .custom-2 .cutom-firsthead h4 {
+        font-weight: 500;
+        font-size: 19px
+    }
+
+    .custom-2 .createimage {
+        width: 60%;
+        display: flex;
+        margin: auto
+    }
+
+    .custom-2 .circlebox2 {
+        width: 14%;
+        left: -38px;
+        top: 5px;
+        height: 19%
+    }
+
+    .custom-2 .custom_content p {
+        font-size: 16px
+    }
+
+    .custom-2 .grids {
+        display: grid;
+        grid-template-columns: 322px 322px 322px;
+        column-gap: 4px;
+        margin-top: 2rem;
+        border-radius: 2rem
+    }
+
+    .double-2 .border {
+        height: 89%;
+        width: 100%
+    }
+
+    .double-2 .dpara,
+    .global-2 .globeexpertize {
+        font-size: 19px;
+        margin-bottom: 2rem
+    }
+
+    .double-2 .doubleimage2 {
+        width: 81%
+    }
+
+    .double-2 .doubleimage1 {
+        top: 251px;
+        left: 2rem;
+        height: 60%;
+        width: 59%
+    }
+
+    .global-1 .world_map {
+        margin: -60px auto
+    }
+
+    .global-1 .global_heading {
+        font-size: 2.4rem
+    }
+
+    .global-1 .title p {
+        backdrop-filter: blur(6px);
+        padding: 10px
+    }
+
+    .global-1,
+    .world_map .italy {
+        top: 38%
+    }
+
+    .global-2 .globexpertize {
+        font-size: 28px
+    }
+
+    .team-3 .teamparathree {
+        font-size: 20px;
+        text-shadow: none
+    }
+
+    .testimonial_1 .mainclient_content h1 {
+        font-size: 2.3rem
+    }
+
+    .testimonial_1 .onetestimonial {
+        width: 47%
+    }
+
+    .testimonial_1 .testiimage {
+        margin: 10px 7px
+    }
+
+    .testimonial_1 .flex1 {
+        font-size: 1.2rem
+    }
+
+    .testimonial_1 .client_logo4 {
+        left: 32rem;
+        width: 14%
+    }
+
+    .testimonial_1 .client_logo1 {
+        right: 23rem;
+        width: 12%
+    }
+
+    .testimonial_1 .client_logo5 {
+        width: 14%;
+        left: 38rem;
+        display: none
+    }
+
+    .testimonial_1 .client_logo3 {
+        width: 14%;
+        left: 42rem;
+        top: 33rem
+    }
+
+    .testimonial_1 .client_logo2 {
+        width: 14%;
+        left: 54rem
+    }
+
+    .testimonial_2 .testimonials .testi-image {
+        width: 158px;
+        height: 140px
+    }
+
+    .testimonial_2 .slide p {
+        font-size: 18px;
+        margin-top: 2rem
+    }
+
+    .testimonial_2 .flex1 i {
+        color: #eac612;
+        font-size: .9rem
+    }
+}
+
+@media screen and (max-width:980px) {
+
+    .toggle,
+    nav a {
+        text-decoration: none
+    }
+
+    nav ul ul,
+    nav ul ul ul li {
+        position: static
+    }
+
+    .container {
+        max-width: 760px
+    }
+
+    .row .col-t-3 {
+        flex-basis: 25%;
+        max-width: 25%
+    }
+
+    .row .col-t-4 {
+        flex-basis: 33.33%;
+        max-width: 33.33%
+    }
+
+    .row .col-t-5 {
+        flex-basis: 41.66%;
+        max-width: 41.66%
+    }
+
+    .row .col-t-6 {
+        flex-basis: 50%;
+        max-width: 50%
+    }
+
+    .row .col-t-7 {
+        flex-basis: 58.33%;
+        max-width: 58.33%
+    }
+
+    .row .col-t-8 {
+        flex-basis: 66.66%;
+        max-width: 66.66%
+    }
+
+    .row .col-t-10 {
+        flex-basis: 83.33%;
+        max-width: 83.33%
+    }
+
+    .row .col-t-12 {
+        flex-basis: 100%;
+        max-width: 100%
+    }
+
+    #logo {
+        display: block;
+        padding: 0;
+        width: 100%;
+        text-align: center;
+        float: none
+    }
+
+    nav {
+        margin: 0
+    }
+
+    nav a {
+        padding: 9px 15px;
+        color: #a8cf45;
+        font-size: 15px
+    }
+
+    #stickbox,
+    .audiohide,
+    .blog-1 .blog_image4,
+    .company-3 .circle_white,
+    .counter,
+    .email_col,
+    .excelgridrow,
+    .exclerow,
+    .germany-2 .cities_box,
+    .menu,
+    .toggle+a,
+    nav ul li:hover>ul,
+    nav ul ul li:hover>ul {
+        display: none
+    }
+
+    .navbar {
+        position: inherit;
+        max-width: 100%;
+        margin: 0 !important;
+        border-radius: 0 !important
+    }
+
+    .nav-menu {
+        display: block;
+        padding: 62px 0;
+        width: 56%;
+        height: auto;
+        position: fixed;
+        top: 0;
+        left: -100%;
+        opacity: 1;
+        transition: .5s;
+        bottom: 0
+    }
+
+    .menu-icon,
+    .toggle {
+        display: block !important;
+        color: #a8cf45
+    }
+
+    .nav-menu.active {
+        background: #fff;
+        left: 0;
+        opacity: 1;
+        transition: .5s;
+        z-index: 888888;
+        border-radius: 0;
+        box-shadow: -3px -4px 4px -2px #a8cf45 inset
+    }
+
+    .menu-icon {
+        position: absolute;
+        top: -66px;
+        right: 18px;
+        transform: translate(-100%, 60%);
+        font-size: 1.8rem;
+        cursor: pointer
+    }
+
+    .toggle {
+        padding: 9px 15px;
+        font-size: 15px;
+        border-bottom: 1px solid #a8cf45
+    }
+
+    .fa-angle-down {
+        float: right;
+        margin: 6px 0
+    }
+
+    .toggle:hover {
+        background-color: #a8cf45
+    }
+
+    .delivery-2 .processor_concept,
+    .excelgridrow,
+    .footer_link,
+    .form-item,
+    [id^=drop]:checked+ul {
+        display: block
+    }
+
+    nav ul li,
+    nav ul ul li {
+        display: block;
+        width: 100%
+    }
+
+    nav ul ul .toggle,
+    nav ul ul a {
+        padding: 0 40px
+    }
+
+    nav a:hover,
+    nav ul ul ul a {
+        background-color: #000
+    }
+
+    nav ul li ul li .toggle,
+    nav ul ul a,
+    nav ul ul ul a {
+        padding: 14px 20px;
+        color: #fff;
+        font-size: 17px
+    }
+
+    nav ul ul {
+        float: none;
+        color: #fff
+    }
+
+    .fa-caret-down {
+        float: right;
+        margin: 13px 9px;
+        display: inline
+    }
+
+    .popslider .grids {
+        display: grid;
+        grid-template-columns: 350px 350px
+    }
+
+    .company .company_heading {
+        font-size: 32px
+    }
+
+    .company .company_para,
+    .construction-2 .gif_para,
+    .construction-2 .para_expertize,
+    .custom-2 .cta span,
+    .custom-2 .custom_content p,
+    .custom-2 .custompara,
+    .design-2 .design_headingfour,
+    .design-2 .para_expertize,
+    .double-1 .custompara,
+    .footer-1 .footer-para,
+    .germany-2 .para_expertize,
+    .graphic-2 .gif_para,
+    .grid-1 p,
+    .intro-para3,
+    .work-1 p,
+    .work-2 p,
+    .work-3 p,
+    .wrap-5 p {
+        font-size: 15px
+    }
+
+    .company .company_box::before {
+        left: 10px;
+        top: -13px
+    }
+
+    .form-1 .form-para {
+        margin: 0 5%
+    }
+
+    .company-3 .company-specialist,
+    .double-2 .double_heading,
+    .grid-1 h2,
+    .testimonial_2 .test_heading,
+    .work-1 h2,
+    .wrap-4 h2,
+    .wrap-5 h2,
+    .wrap-6 h2 {
+        font-size: 1.4rem;
+        font-weight: 500
+    }
+
+    .work-2 h3,
+    .work-3 h3 {
+        font-size: 1rem;
+        color: #000
+    }
+
+    .work-3 h3 {
+        padding: 0 3px
+    }
+
+    .audio_two .german_heading2,
+    .bind h2,
+    .construction-2 .construction_head2,
+    .custom-2 .customheading2,
+    .custom-2 .excel-workhead,
+    .customheading4,
+    .design-2 .Standdesign_heading,
+    .double-1 .customheading2,
+    .double-2 .customheading2,
+    .experience-head,
+    .expo-world,
+    .global-2 .globalheading,
+    .graphic-2 .graphic_heading2,
+    .stanbuilder-1 .german_heading2,
+    .team-2 .teamheading,
+    .work-4 h2 {
+        font-size: 1.3rem;
+        font-weight: 500
+    }
+
+    .audio_two .audioteam,
+    .blog-2 .blog_para,
+    .custom-2 .customp,
+    .custom-2 .rqpara-1,
+    .form-1 .form-item a,
+    .team-3 .teamparathree,
+    .universe-1 .universe-list a,
+    .work-5 h5 {
+        font-size: 1rem
+    }
+
+    .work-5 p {
+        font-size: .9em
+    }
+
+    .contact-1 h1,
+    .testimonial_1 .mainclient_content h1 {
+        font-size: 2rem
+    }
+
+    .contact-1 p,
+    .custom-1 .customstand {
+        font-size: 1.5rem
+    }
+
+    .Expo-logo,
+    .right-container,
+    .work-4 iframe {
+        left: 0
+    }
+
+    .Delivery-btn,
+    .grid,
+    .unorder {
+        display: none !important
+    }
+
+    .work-5 .article_grid {
+        grid-template-columns: 245px 245px 245px
+    }
+
+    .work-5 .article-blog {
+        width: 96%;
+        padding: 6px;
+        margin: -2rem .3rem
+    }
+
+    .quote {
+        left: -129px;
+        top: 0
+    }
+
+    .video-1 .marquee span {
+        font-size: 20px
+    }
+
+    .btn-quote {
+        width: 100%;
+        font-size: 15px
+    }
+
+    .example2 h3 {
+        font-size: 1.3rem
+    }
+
+    .intro-para2 {
+        font-size: 19px
+    }
+
+    .custom-3 .customquote,
+    .intro-para1 {
+        font-size: 1.2rem
+    }
+
+    .intro-para1 {
+        color: #2b2f34
+    }
+
+    .big-img {
+        height: 87%
+    }
+
+    .company .companyimagesbox {
+        top: 14rem
+    }
+
+    .double_image {
+        width: 100%;
+        margin: 20px 115px
+    }
+
+    .company-1 .company_content,
+    .custom-2 .paracustom,
+    .custom_list {
+        background: #fff
+    }
+
+    .company-1 .paragraph1 {
+        width: 140%;
+        left: 4rem;
+        top: 0
+    }
+
+    .company-2 .skilss_bar {
+        width: 96%
+    }
+
+    .company-3 .para_expertize::before {
+        top: -7px
+    }
+
+    .Cta_section {
+        margin: 20px 0
+    }
+
+    .white-back {
+        width: 73%;
+        top: 8rem
+    }
+
+    .company-3 .lid,
+    .company-3 .mid {
+        margin: 0 auto
+    }
+
+    .custom-3 .rqpara-1 {
+        padding: 1rem
+    }
+
+    .excel_gridbox {
+        display: grid;
+        grid-template-columns: 366px 366px
+    }
+
+    .service-1 img {
+        height: 343px
+    }
+
+    .major-1 .mbox,
+    .wrap-4 .box {
+        width: 31%
+    }
+
+    .wrap-6 .contain_2 {
+        width: 86%;
+        margin-bottom: 4rem;
+        margin-top: 1rem
+    }
+
+    .left-container-arrow {
+        top: -18px;
+        right: 12rem;
+        transform: rotate(-92deg)
+    }
+
+    .tree_logo {
+        right: 156px;
+        top: -3rem
+    }
+
+    .right-container .tree_logo {
+        left: 147px
+    }
+
+    .text-box {
+        left: 3rem
+    }
+
+    .right-container-arrow {
+        top: -1.2rem;
+        left: 11rem;
+        transform: rotate(90deg)
+    }
+
+    .cards .card {
+        flex: 0.7
+    }
+
+    .grid-1 .btn {
+        font-size: 12px;
+        margin: 1rem 12rem
+    }
+
+    .work-2 .work-box,
+    .work-3 .work-box-2 {
+        margin: 0;
+        width: 95%
+    }
+
+    .work-4 .bloc-tabs {
+        display: flex;
+        margin-bottom: 2rem
+    }
+
+    .form-1 #form {
+        margin: 2em 6em
+    }
+
+    .work-5 .readmore {
+        padding: 6px 14px;
+        font-size: .9rem;
+        font-weight: 500
+    }
+
+    .form-1 .form-para {
+        font-size: 1.6rem
+    }
+
+    .form-1 .threeD_para {
+        font-size: 2rem;
+        margin: 10px 0
+    }
+
+    .blog-2 .blog_data,
+    .contact-2 .contact-lists .contacticonss,
+    .footer-1 .footer_link .footer-lists a,
+    .form-1 .form_icon,
+    .testimonial_1 .flex1 {
+        font-size: .9rem
+    }
+
+    .form-1 form {
+        margin: 2em 5em;
+        border: 3px solid #a8cf45
+    }
+
+    .contact-1 .contact_para {
+        margin: 1rem 0
+    }
+
+    .contact-1 .contact_para img {
+        width: 11%
+    }
+
+    .contact-2 .contact_flex {
+        grid-template-columns: 200px 200px;
+        column-gap: 140px
+    }
+
+    .contact-2 .contact_card {
+        width: 300px;
+        height: 237px
+    }
+
+    .contact-2 .contact_card .imgbx {
+        width: 245px;
+        height: 180px
+    }
+
+    .contact-2 .card_para {
+        width: 52%;
+        text-align: center;
+        font-size: 16px
+    }
+
+    .contact-2 .contact_card .imgbx .contacticon {
+        font-size: 2rem;
+        left: 5.3rem
+    }
+
+    .contact-2 .contact_flex .contact_card .contact_content {
+        top: 201px;
+        padding: 0 25px
+    }
+
+    .footer-1 .social-container {
+        font-size: .5rem;
+        height: 36px;
+        width: 5%
+    }
+
+    .audio_two .audiopara p,
+    .footer-1 .footer_icon {
+        font-size: .8rem
+    }
+
+    .footer-1 .expo-row::before {
+        top: 113px
+    }
+
+    .universe-1 .universe-list {
+        margin: 0 31px
+    }
+
+    .major-1 .major-head {
+        font-size: 1.5rem;
+        color: #a8cf45
+    }
+
+    .port_content .bloc_lists li {
+        padding: 10px 30px;
+        font-size: .9rem
+    }
+
+    .port_content .bloc-tabs ul li.active::before {
+        right: 121px;
+        top: 28px
+    }
+
+    .port_content .bloc-tabs {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 22px
+    }
+
+    .port_content .gallery_item,
+    .port_content .gallery_item2,
+    .port_content .gallery_item3 {
+        grid-template-columns: 346px 346px
+    }
+
+    .trade-2 .left_tradebox {
+        width: 30%;
+        height: 212px;
+        margin: 1rem 9px
+    }
+
+    .blog-1 .blog-content {
+        margin-top: 13%
+    }
+
+    .blog-1 .blog-content p,
+    .testimonial_1 .mainclient_content p {
+        font-size: 1.1rem
+    }
+
+    .blog-1 .blog_image {
+        width: 64%;
+        position: relative;
+        top: 9%;
+        left: -1rem
+    }
+
+    .blog-1 .blog_image3 {
+        width: 58%;
+        border-radius: 10px 10px 60px 62px;
+        margin: 16px 4rem
+    }
+
+    .blog-2 .blog_gallery {
+        grid-template-columns: 320px 320px;
+        gap: 60px
+    }
+
+    .blog-2 {
+        margin-top: 3rem
+    }
+
+    .standbuilder .german_heading {
+        font-size: 1.4rem;
+        padding: 16px
+    }
+
+    .design-2 .german_para,
+    .germany-2 .german_para,
+    .stanbuilder-1 .german_para {
+        font-size: 1.1rem;
+        padding: 0 25px
+    }
+
+    .double-2 .doublecustom,
+    .stanbuilder-1 .para_expertize,
+    .team-2 .team_para {
+        font-size: 16px
+    }
+
+    .stanbuilder-1 .gpara {
+        margin: 10px auto
+    }
+
+    .design-2 .animation_para {
+        font-size: 14px
+    }
+
+    .design-2 .gif_para {
+        width: 95%;
+        margin: 30px 16px;
+        left: auto
+    }
+
+    .audio .audiovisual_heading,
+    .construction-1 .construction_head {
+        font-size: 1.4rem
+    }
+
+    .graphic-1 .graphic_heading {
+        font-size: 1.4rem;
+        margin: 30% 11%
+    }
+
+    .graphic-1 .graphic_imagebox img {
+        margin-left: 2rem
+    }
+
+    .graphic-2 .graphicpara {
+        font-size: .9rem;
+        padding: 10px
+    }
+
+    .audio .visual video {
+        width: 97%
+    }
+
+    .audio_two .audiopara i {
+        padding: 0 5px
+    }
+
+    .audio_two .audioteam::before {
+        top: 49px
+    }
+
+    .germany-1 .glassEffect {
+        margin-top: 10%;
+        margin-bottom: 4rem
+    }
+
+    .germany-1 .glass_headinggermany {
+        font-size: 3rem
+    }
+
+    .germany-2 .germany_head {
+        font-size: 1.3rem;
+        font-weight: 500;
+        margin-top: 2rem
+    }
+
+    .germany-2 .custom_list,
+    .germany-2 .german_paragraph {
+        font-size: 15px;
+        padding: 0 20px
+    }
+
+    .germany-2 .cities_links {
+        grid-template-columns: 170px 170px 170px
+    }
+
+    .custom-2 .custom_boxes,
+    .germany-2 .german_cards {
+        grid-template-columns: 370px 370px
+    }
+
+    .custom-1 .customstand_para {
+        font-size: 1rem;
+        margin-bottom: 2rem
+    }
+
+    .custom-1 .customimage {
+        margin-top: 12px;
+        border-radius: 36px 111px 36px 132px
+    }
+
+    .custom-2 .video-border {
+        margin: auto auto 37px;
+        width: 95%
+    }
+
+    .custom-2 .sidecustom {
+        left: auto
+    }
+
+    .custom-2 .paracustom {
+        padding: 0 20px
+    }
+
+    .custom-2 .customheading3,
+    .custom_list {
+        padding: 0 25px
+    }
+
+    .custom-2 .cutom-firsthead h4 {
+        font-size: 1.1rem;
+        font-weight: 400
+    }
+
+    .custom-2 .circle-box {
+        top: 7px;
+        width: 12%;
+        height: 15%;
+        left: -25px
+    }
+
+    .custom-3 .grids {
+        grid-template-columns: 225px 225px 225px
+    }
+
+    .custom-3 .custombtn {
+        margin: 1rem 10rem;
+        font-size: 12px
+    }
+
+    .double-2 .dpara {
+        margin-bottom: 2rem
+    }
+
+    .double-2 .doublepara {
+        background: #fff;
+        font-size: 15px;
+        padding: 0 15px
+    }
+
+    .double-2 .border {
+        width: 90%;
+        height: 87%;
+        left: 15px
+    }
+
+    .double-2 .doubleimage1 {
+        width: 60%;
+        height: 60%;
+        top: 187px
+    }
+
+    .global-1 .world_map {
+        margin: -56px auto
+    }
+
+    .global-1 .global_heading {
+        font-size: 2rem;
+        margin: 10px
+    }
+
+    .global-1 .pin span {
+        font-size: 12px
+    }
+
+    .global-1 .world_map .italy {
+        top: 38%
+    }
+
+    .global-1 .title p {
+        font-size: 19px;
+        backdrop-filter: blur(14px)
+    }
+
+    .global-2 .para_expertize {
+        font-size: 16px;
+        margin-bottom: 1rem
+    }
+
+    .global-2 .globeparaleft {
+        display: grid;
+        grid-template-columns: 358px 358px
+    }
+
+    .global-2 .paragraph {
+        font-size: 15px;
+        padding: 1rem 7px
+    }
+
+    .team-2 .teamheading img {
+        width: 7%
+    }
+
+    .testimonial_1 .onetestimonial {
+        width: 47%
+    }
+
+    .testimonial_1 .testiimage {
+        margin: 10px 7px
+    }
+
+    .testimonial_1 .big_image {
+        width: 100%
+    }
+
+    .testimonial_1 .client_logo4 {
+        left: 25rem;
+        width: 12%
+    }
+
+    .testimonial_1 .client_logo1 {
+        right: 19rem;
+        width: 12%
+    }
+
+    .testimonial_1 .client_logo5 {
+        width: 12%;
+        left: 38rem;
+        display: none
+    }
+
+    .testimonial_1 .client_logo3 {
+        width: 12%;
+        left: 42rem;
+        top: 9rem
+    }
+
+    .testimonial_1 .client_logo2 {
+        width: 12%
+    }
+
+    .testimonial_2 .testimonials .testi-image {
+        width: 158px;
+        height: 140px
+    }
+
+    .delivery-2 .content_review {
+        margin: 1rem 12rem
+    }
+
+    .delivery-2 .processor_concept .concept-1 {
+        width: 98%
+    }
+
+    .delivery-2 .concept-1 iframe {
+        height: 367px;
+        width: 99%
+    }
+
+    .delivery-2 .delivery_icon {
+        display: flex;
+        justify-content: center;
+        transform: rotate(90deg)
+    }
+}
+
+@media screen and (max-width:767px) {
+
+    #logo,
+    .trade_heading,
+    .work-4 .content-tabs {
+        text-align: center
+    }
+
+    .menu-icon {
+        top: -7px;
+        position: fixed
+    }
+
+    .row .col-m-12 {
+        flex-basis: 100%;
+        max-width: 100%
+    }
+
+    .row .col-t-6 {
+        flex-basis: 50%;
+        max-width: 50%
+    }
+
+    .container,
+    .row .logo_col,
+    .wrap-2 .service-head {
+        max-width: 100%
+    }
+
+    .blog-2 .blog_data,
+    .blog-2 .para_blog,
+    .content-tabs .seeds-para,
+    .custom-2 .custom_content p,
+    .custom-2 .custompara,
+    .double-1 .custompara,
+    .footer-1 .footer-para,
+    .german_paragraph,
+    .glimpse-para,
+    .global-2.globeexpertize,
+    .graphic-2 .graphicpara,
+    .major-1 .expe-standpara,
+    .team-2 .team_para,
+    .text-box,
+    .universe-1 .universe-list a,
+    .work-2 .work-para,
+    .work-3 .work-para,
+    .work-5 .article-para,
+    .work-5 .readmore,
+    .yearexp-para {
+        font-size: .9rem
+    }
+
+    .row .logo_col {
+        position: fixed;
+        top: 0;
+        background: #fff;
+        width: 100%;
+        z-index: 2;
+        box-shadow: -18px 10px 10px -10px #a8cf45;
+        height: 8%;
+        flex-basis: 100%;
+        padding: 0 15px
+    }
+
+    .popslider .grids {
+        display: grid;
+        margin: auto 17px
+    }
+
+    .custombtn {
+        margin: 1rem 12rem
+    }
+
+    #logo {
+        display: block;
+        padding: 0;
+        width: 100%;
+        float: none
+    }
+
+    .excel_gridbox {
+        display: grid;
+        grid-template-columns: 342px 342px
+    }
+
+    .quote {
+        left: auto;
+        top: 0;
+        right: 9rem
+    }
+
+    .Expo-logo {
+        top: 0;
+        left: 0;
+        width: 121px;
+        z-index: 1
+    }
+
+    .btn-quote,
+    .button-quote {
+        width: auto
+    }
+
+    .audio_two .audio_flex,
+    .background-3,
+    .custom-2 .request_quote,
+    .custom-3 .request_quote,
+    .delivery-2 .processor_concept {
+        display: block
+    }
+
+    .btn-quote {
+        font-size: 14px;
+        letter-spacing: 1px
+    }
+
+    .example2 {
+        height: 49px
+    }
+
+    .example2 h3 {
+        font-size: 14px;
+        height: auto
+    }
+
+    .intro-para2 {
+        font-size: 1.1rem;
+        color: #a8cf45
+    }
+
+    .construction-2 .para_expertize,
+    .custom-2 .excel-para,
+    .custom-2 .intro-para3,
+    .custom-4 #accordian li label,
+    .double-2 .para_expertize,
+    .exhibition-hand,
+    .germany-2 .para_expertize,
+    .intro-links,
+    .para_expertize,
+    .stanbuilder-1 .para_expertize,
+    .team-2 .para_expertize {
+        font-size: 14px
+    }
+
+    .intro-para1 {
+        font-size: 1rem;
+        color: #33373d;
+        text-shadow: 0 0 #000
+    }
+
+    .excel-para,
+    .intro-para3 {
+        font-size: 14px;
+        color: #000
+    }
+
+    .double_image {
+        padding: 30px;
+        margin: 20px 4px
+    }
+
+    .white-back {
+        width: 77%;
+        top: 13rem
+    }
+
+    .bind .slider-heading,
+    .construction-1 .construction_head2,
+    .custom-1 .customheading2,
+    .double-1 .customheading2,
+    .double-2 .customheading2,
+    .excel-workhead,
+    .experience-head,
+    .germany-2 .germany_head,
+    .glimpse-heading,
+    .global-2 .globalheading,
+    .stanbuilder-1 .german_heading2,
+    .team-2 .teamheading,
+    .testimonial_2 .test_heading,
+    .work-heading,
+    .wrap-4 .expo-world,
+    .wrap-5 .expo-world,
+    .wrap-6 .expo-world {
+        font-size: 1.3rem;
+        font-weight: 500
+    }
+
+    .blog-1 .blog_image4,
+    .company-3 .circle_white,
+    .counter,
+    .exclerow,
+    .grid-1 .cards,
+    .testimonial_1 .clientlogo .client_logo4,
+    .work-4 {
+        display: none
+    }
+
+    .excelgridrow {
+        display: block;
+        margin: 0 27px
+    }
+
+    .wrap-4 .box {
+        width: 28%;
+        margin: 3rem auto
+    }
+
+    .wrap-5 {
+        background: linear-gradient(rgb(168, 207, 69, .1), rgb(168, 207, 69, .1)), url(/src/Components/back_lines.png) top center/cover
+    }
+
+    .wrap-5 p {
+        padding: 10px
+    }
+
+    .wrap-6 .expo-world {
+        margin-bottom: 4rem
+    }
+
+    .double-2 .doubleside,
+    .glimpse-heading {
+        margin-top: 1rem
+    }
+
+    .contain_2,
+    .footer-1 .footer-logo {
+        width: 100%
+    }
+
+    .right-container {
+        left: 0
+    }
+
+    .left-container-arrow {
+        top: -20px;
+        transform: rotate(-88deg);
+        left: 10rem
+    }
+
+    .tree_logo {
+        top: -3rem;
+        left: 8rem
+    }
+
+    .right-container-arrow {
+        height: 0;
+        top: -22px;
+        transform: rotate(91deg);
+        right: 168px;
+        left: auto
+    }
+
+    .right-container .tree_logo {
+        left: 135px
+    }
+
+    .audio_two .audioteam,
+    .form-1 .form-item a,
+    .germany-2 .cities_item,
+    .testimonial_1 .mainclient_content p,
+    .text-box .tree-heading {
+        font-size: 1rem
+    }
+
+    .slidesimage img {
+        border-radius: 2rem;
+        border: 3px solid #a8cf45;
+        width: 69%;
+        height: 285px;
+        object-fit: cover;
+        margin: auto
+    }
+
+    .grid-1 .btn {
+        margin: auto 167px;
+        padding: 12px;
+        font-size: 10px;
+        color: #000
+    }
+
+    .simplewrap {
+        display: block !important
+    }
+
+    .grid-1 .btn .btn-link {
+        color: #000
+    }
+
+    .work-1 .work_para {
+        font-size: .9rem;
+        padding: 5px
+    }
+
+    .work-2,
+    .work-3 {
+        height: auto !important
+    }
+
+    .wrapap .work-3 {
+        margin: 4rem 0
+    }
+
+    .work-2 .work-box,
+    .work-3 .work-box-2 {
+        margin: 0 auto 10px
+    }
+
+    .work-2 .workexp-heading,
+    .work-3 .workexp-heading {
+        color: #000;
+        font-size: 1rem
+    }
+
+    .work-4 .client_say {
+        font-size: 1.3rem;
+        font-weight: 500;
+        margin-top: 10px
+    }
+
+    .work-4 .bloc-tabs {
+        left: 6px
+    }
+
+    .work-4 .bloc-tabs .clients_img {
+        display: block;
+        font-size: 11px
+    }
+
+    .work-4 .tabs {
+        padding: 4px
+    }
+
+    .content-tabs .seeds-span {
+        margin-right: auto
+    }
+
+    .work-4 iframe {
+        width: 100%;
+        left: 0
+    }
+
+    .work-5 .article_grid {
+        grid-template-columns: 400px;
+        margin: auto
+    }
+
+    .work-5 .article-blog {
+        padding: 8px
+    }
+
+    .contact-1 .contact_head,
+    .form-1 .form-para,
+    .major-1 .major-head {
+        font-size: 1.3rem
+    }
+
+    .form-para p {
+        margin-bottom: .8rem
+    }
+
+    .form-1 .threeD_para {
+        font-size: 1.8rem;
+        margin-bottom: 1rem
+    }
+
+    .form-1 #form {
+        margin: 2em 5em;
+        padding: 2rem 1rem
+    }
+
+    .footer-1 {
+        margin-bottom: auto
+    }
+
+    .footer-1 .expo-row::before {
+        top: 191px
+    }
+
+    .footer-1 .social-container {
+        font-size: .5rem;
+        height: 33px
+    }
+
+    .footer-1 .footer_link .footer-lists a {
+        font-size: .9rem;
+        color: #fff
+    }
+
+    .footer-1 .footer_icon {
+        font-size: .8rem
+    }
+
+    .universe-1 .universe-item {
+        display: grid;
+        grid-template-columns: 185px 185px 185px 185px
+    }
+
+    .overlay {
+        margin-top: auto
+    }
+
+    .company_content {
+        background: #fff
+    }
+
+    .company-1 .paragraph1 {
+        width: 113%;
+        left: 6rem;
+        top: -1rem
+    }
+
+    .company .company_box {
+        width: 73%;
+        margin: 4rem 65px
+    }
+
+    .company .company_heading {
+        font-size: 30px
+    }
+
+    .company .company_logo {
+        top: -3rem
+    }
+
+    .company .company_contentbox {
+        margin-left: 9rem;
+        margin-bottom: 2rem
+    }
+
+    .company .big-img {
+        width: 67%
+    }
+
+    .company .company_box::before {
+        left: 24px;
+        top: -14px
+    }
+
+    .company .companyimagesbox {
+        top: 31rem
+    }
+
+    .company-2 .company-specialist,
+    .company-3 .company-specialist,
+    .custom-2 .customhead {
+        font-size: 1.2rem;
+        font-weight: 500
+    }
+
+    .company-2 .bar .progress_line span::after {
+        right: -8px;
+        font-size: 14px
+    }
+
+    .company-2 .skilss_bar {
+        width: 85%
+    }
+
+    .company-3 .lid,
+    .company-3 .mid {
+        margin: 0 170px
+    }
+
+    .company-2 .company_p {
+        padding: 0 54px
+    }
+
+    .global-2 .globeparaleft {
+        column-gap: 10px;
+        margin: 0 40px
+    }
+
+    .port_content .bloc_lists li {
+        padding: 11px 29px;
+        font-size: .8rem
+    }
+
+    .port_content .bloc-tabs ul {
+        margin: 1rem auto
+    }
+
+    .port_content .bloc-tabs ul li.active::before {
+        height: 7px;
+        top: 34px;
+        right: 102px
+    }
+
+    .port_content .gallery_item,
+    .port_content .gallery_item2,
+    .port_content .gallery_item3 {
+        grid-template-columns: 240px 240px 240px
+    }
+
+    .trade-2 .left_tradebox {
+        width: 30%;
+        height: 198px;
+        margin: 1rem 9px
+    }
+
+    .trade-2 .trade_img {
+        width: 92%;
+        height: 166px
+    }
+
+    .trade_heading {
+        font-size: 2rem;
+        color: #fff
+    }
+
+    .Psi .tradeffect {
+        margin: auto;
+        height: auto
+    }
+
+    .Psi .tradeffect.tradebtn {
+        margin-top: 0;
+        margin-bottom: 11px
+    }
+
+    .audio_two .germanpara,
+    .construction-2 .germanpara,
+    .design-2 .germanpara,
+    .design-2 .gif_para,
+    .design-2 .juMGlC .data_items,
+    .germany-2 .germanpara,
+    .graphic-2 .intro-para3,
+    .stanbuilder-1 .intro-para3,
+    .testimonial_2 .slide p {
+        font-size: 15px
+    }
+
+    .germany-2 .german_paragraph p {
+        font-size: 15px;
+        padding: 10px 20px
+    }
+
+    .germany-2 .custom_list li {
+        font-size: 15px;
+        padding: 10px 0
+    }
+
+    .major-1 .mbox {
+        width: 47%
+    }
+
+    .contact-1 .contact_para img {
+        width: 66px
+    }
+
+    .contact-1 .contact_para {
+        font-size: 1.1rem;
+        margin: 1rem 0;
+        color: #fff
+    }
+
+    .contact-1 .contact_head img,
+    .contact_head img {
+        position: absolute;
+        left: 7px;
+        top: -53px;
+        width: 84px
+    }
+
+    .contact-1 .glassy {
+        width: 95%;
+        margin: 50px auto
+    }
+
+    .contact-2 .contact_flex,
+    .global-1 .world_map,
+    .standimages {
+        margin: auto
+    }
+
+    .contact-2 .contact_card {
+        width: 265px;
+        height: 211px
+    }
+
+    .contact-2 .contact_card .imgbx {
+        width: 227px;
+        height: 162px
+    }
+
+    .contact-2 .card_para {
+        font-size: 12px;
+        left: 4rem
+    }
+
+    .contact-2 .contact_flex .contact_card .contact_content {
+        top: 182px
+    }
+
+    .contact-2 .contact-lists a {
+        font-size: .7rem;
+        padding: 10px 2px
+    }
+
+    .contact-2 .contact-lists .contacticonss {
+        font-size: .6rem
+    }
+
+    .contact-2.contact_card .imgbx .contacticon {
+        position: absolute;
+        color: #a8cf45;
+        font-size: 2rem;
+        left: 6rem;
+        top: -2rem
+    }
+
+    .global-1 .global_heading {
+        font-size: 1.7rem;
+        font-weight: 500
+    }
+
+    #accordian li label span i,
+    .global-1 .title p,
+    .testimonial_2 .details .job,
+    .testimonial_2 .details .name {
+        font-size: 16px
+    }
+
+    .global-2 .globalpara {
+        font-size: .9rem;
+        padding: 0 15px
+    }
+
+    .global-2 .paragraph {
+        font-size: .9rem;
+        width: 340px
+    }
+
+    .global-2 .position {
+        margin: 11px 0 10px -18px
+    }
+
+    .global-2 .globexpertize {
+        font-size: 19px
+    }
+
+    .teamheading img {
+        width: 34px
+    }
+
+    .team-2 .teamparathree {
+        font-size: .9rem;
+        backdrop-filter: blur(7px)
+    }
+
+    .testimonial_1 .mainclient_content {
+        font-size: 1.4rem;
+        padding: 0 15px
+    }
+
+    .germany-1 .glass_headinggermany,
+    .testimonial_1 .mainclient_content h1 {
+        font-size: 2rem
+    }
+
+    .testimonial_1 .testiimage {
+        width: 24%;
+        margin: 8px 7px;
+        height: 47px
+    }
+
+    .testimonial_1 .big_image {
+        padding: 0 39px;
+        margin: 0 188px;
+        border-radius: 76px 76px 40px 40px;
+        height: 120%;
+        width: 53%
+    }
+
+    .testimonial_1 .clientlogo .client_logo1 {
+        width: 15%;
+        right: 31rem;
+        top: 31rem
+    }
+
+    .testimonial_1 .clientlogo .client_logo2 {
+        width: 16%;
+        left: 30rem;
+        top: 33rem
+    }
+
+    .swiperTest .testimonials {
+        padding: 242px 0
+    }
+
+    .testimonial_1 .clientlogo .client_logo5 {
+        width: 21%;
+        top: 35rem;
+        left: 22rem
+    }
+
+    .testimonial_1 .onetestimonial,
+    .testimonial_1 .twotestimonial {
+        width: 33%
+    }
+
+    .testimonial_1 .clientlogo .client_logo3 {
+        width: 16%;
+        top: 41rem;
+        left: 8.3rem
+    }
+
+    .testimonial_1 .testimonial {
+        padding: 0 10px
+    }
+
+    .custom-1 .customstand {
+        font-size: 1.6rem;
+        padding: 8px 15px
+    }
+
+    .custom-1 .customstand_para {
+        font-size: 1rem;
+        padding: 0 15px;
+        margin-bottom: 3rem
+    }
+
+    .custom-1 .customimage {
+        display: flex;
+        margin: auto;
+        border-radius: 60px 10px
+    }
+
+    .custom-2 .customheading2 {
+        font-size: 1.3rem;
+        font-weight: 500;
+        padding: 0 15px
+    }
+
+    .custom-2 .video-border {
+        width: 361px;
+        margin: 0 auto 23px;
+        backdrop-filter: blur(51px)
+    }
+
+    .custom-2 .sidecustom {
+        top: 2rem;
+        left: -2rem
+    }
+
+    .custom-2 .paracustom {
+        margin-top: 10px;
+        padding: 0 33px;
+        font-size: .9rem
+    }
+
+    .custom-2 .customheading3,
+    .customheading4 {
+        font-weight: 500;
+        padding: 0 30px;
+        font-size: 1.3rem
+    }
+
+    .custom-2 .custom_list {
+        font-size: .9rem;
+        padding: 0 30px
+    }
+
+    .custom-2 .custom_boxes {
+        display: flex;
+        flex-direction: column-reverse;
+        margin: 0 37px
+    }
+
+    .custom-2 .circle-box {
+        left: -16px;
+        width: 6%
+    }
+
+    .custom-2 .modular_video {
+        margin: -35px 134px 48px
+    }
+
+    .custom-2 .cutom-firsthead h4 {
+        font-weight: 400;
+        font-size: 1rem
+    }
+
+    .custom-2 .custom-box {
+        width: 89%;
+        margin: 10px auto
+    }
+
+    .custom-2 .rqpara-2 {
+        margin: 9px
+    }
+
+    .custom-2 .cta {
+        margin: 10px 18rem;
+        padding: 12px 0;
+        display: flex
+    }
+
+    .custom-2 .cta svg {
+        top: 3px
+    }
+
+    .blog-1 .blog-content p,
+    .custom-3 .customquote {
+        font-size: 1rem;
+        margin-bottom: 1rem
+    }
+
+    .custom-3 .popslider .grids {
+        grid-template-columns: auto;
+        row-gap: 1rem
+    }
+
+    .custom-3 .custombtn {
+        margin: 1rem 12rem;
+        font-size: 12px
+    }
+
+    .custom-4 #accordian {
+        margin: 100px auto;
+        width: 460px
+    }
+
+    .double-2 .doublepara {
+        font-size: .9rem;
+        padding: 20px
+    }
+
+    .double-2 .doublecustom {
+        margin-top: 21px
+    }
+
+    .double-2 .dpara {
+        margin: auto;
+        font-size: 14px
+    }
+
+    .double-2 .border {
+        width: 89%
+    }
+
+    .double-2 .doubleimage1 {
+        top: 101px;
+        width: 84%;
+        left: 2rem
+    }
+
+    .double-2 .double_heading {
+        font-size: 1.3rem;
+        font-weight: 500;
+        padding: 0 10px
+    }
+
+    .germany-1 .glassEffect {
+        width: 77%;
+        margin: 36px auto
+    }
+
+    .germany-2 .german_para,
+    .stanbuilder-1 .german_para {
+        font-size: 1rem;
+        padding: 0 22px
+    }
+
+    .germany-2 .custom_list {
+        padding: 0 20px;
+        font-size: .9rem
+    }
+
+    .germany-2 .dpara {
+        margin: 10px auto;
+        font-size: .9rem
+    }
+
+    .germany-2 .VsDAs p {
+        font-size: .9rem;
+        backdrop-filter: blur(10px);
+        color: #000;
+        padding: 28px
+    }
+
+    .germany-2 .gDoUpW {
+        box-shadow: 2px 10px 35px 1px rgba(153, 153, 153, .3);
+        margin-bottom: 4rem;
+        padding: 10px
+    }
+
+    .germany-2 .cities_box {
+        margin: 2rem 4rem;
+        display: none
+    }
+
+    .audio_two .germanregister,
+    .germany-2 .germanregister {
+        margin: 1rem 4rem
+    }
+
+    .blog-1 .blog-content {
+        padding: 0 10px;
+        margin-top: 5%
+    }
+
+    .blog-1 .blog_image3 {
+        margin: 12px 1rem;
+        width: 52%;
+        position: relative;
+        left: 5rem
+    }
+
+    .blog-1 .blog_image {
+        top: 6%;
+        left: 2rem;
+        width: 52%
+    }
+
+    .blog-2 .blog_para {
+        font-size: 1.1rem
+    }
+
+    .standbuilder .german_heading {
+        margin: 30px auto;
+        font-size: 24px
+    }
+
+    .stanbuilder-1 .gpara {
+        margin: auto;
+        font-size: .9rem
+    }
+
+    .audio_two .baudio,
+    .construction-2 .baudio,
+    .graphic-2 .baudio,
+    .stanbuilder-1 .baudio {
+        display: flex;
+        justify-content: center;
+        align-items: center
+    }
+
+    .audio_two .button_audio,
+    .construction-2 .button_audio,
+    .graphic-2 .button_audio,
+    .stanbuilder-1 .button_audio {
+        font-size: 17px;
+        width: 70%
+    }
+
+    .stanbuilder-1 .button_audio::after {
+        top: 9px;
+        font-size: 25px
+    }
+
+    .construction-2 .germanregister,
+    .graphic-2 .germanregister,
+    .stanbuilder-1 .germanregister {
+        margin: 10px auto
+    }
+
+    .stanbuilder-1 .AudioList {
+        margin: 0 4rem
+    }
+
+    .german_img {
+        left: 4rem
+    }
+
+    .design-2 .Standdesign_heading {
+        padding: 0 40px
+    }
+
+    .graphic-1 {
+        border-bottom: 3px solid #a8cf45
+    }
+
+    .graphic-1 .graphic_imagebox {
+        margin: 20px 9px 0 20px
+    }
+
+    .graphic-1 .graphic_heading {
+        margin: 7% 10%;
+        font-size: 1.3rem;
+        display: flex;
+        justify-content: center;
+        align-items: center
+    }
+
+    .graphic-1 .graphic_heading img {
+        width: 10%;
+        margin: 0 5px
+    }
+
+    .graphic-2 .graphic_heading2 {
+        font-size: 1.3rem;
+        font-weight: 500;
+        margin-top: 1rem
+    }
+
+    .graphic-1 .graphic_imagebox img {
+        margin-left: 5rem;
+        width: 80%
+    }
+
+    .graphic-2 .animation_border {
+        height: auto;
+        margin: auto;
+        max-width: 96%
+    }
+
+    .construction-2 .constimg,
+    .graphic-2 .constimg {
+        width: 85%;
+        display: flex;
+        margin: auto
+    }
+
+    .construction-2 .gif_para,
+    .graphic-2 .gif_para {
+        font-size: .9rem;
+        width: 88%;
+        margin: 20px auto;
+        left: auto
+    }
+
+    .construction-1 .construction_head {
+        margin: 12%;
+        font-size: 1.4rem
+    }
+
+    .german_para {
+        padding: 0 24px
+    }
+
+    .audio .visual video {
+        width: 100%;
+        left: auto
+    }
+
+    .audio .audiovisual_heading {
+        margin: 15px auto;
+        width: 84%;
+        font-size: 1.3rem;
+        padding: 10px 0
+    }
+
+    .audio_two .audioHeading {
+        font-size: 1.3rem;
+        font-weight: 500;
+        padding: 10px;
+        margin: 2rem 0
+    }
+
+    .audio_two .animation_border {
+        width: 92%;
+        margin: auto
+    }
+
+    .visual {
+        width: 60%;
+        margin: 25px auto
+    }
+
+    .delivery-2 .content_review {
+        margin: 1rem 11rem
+    }
+
+    .delivery-2 .processor_concept .concept-1 {
+        width: 97%;
+        text-align: center
+    }
+
+    .delivery-2 .delivery_icon {
+        display: flex;
+        justify-content: center;
+        transform: rotate(90deg)
+    }
+
+    .delivery-2 .concept-1 iframe {
+        width: 97%;
+        height: 387px
+    }
+
+    .content_boxes,
+    .desingcrd {
+        grid-template-columns: 600px;
+        margin: auto
+    }
+
+    .main_contents img {
+        width: 11%
+    }
+}
+
+@media screen and (max-width:639px) {
+    .container {
+        max-width: 100%
+    }
+
+    .excel_gridbox {
+        display: grid;
+        grid-template-columns: 274px 274px;
+        margin: 0 44px
+    }
+
+    .service-1 img {
+        height: 253px
+    }
+
+    .excelgridrow {
+        display: block;
+        margin: 0 -12px
+    }
+
+    .video-1 .quote {
+        left: -132px
+    }
+
+    .video-1 .marquee span {
+        font-size: 17px
+    }
+
+    .video-1 .marquee div {
+        width: 1000%
+    }
+
+    .form-1 #form {
+        margin: 2em 1em
+    }
+
+    .footer-1 .expo-row::before {
+        top: 163px
+    }
+
+    .universe-1 .universe-item {
+        display: grid;
+        grid-template-columns: 185px 185px
+    }
+
+    .company .company_box::before {
+        left: 15px;
+        top: -20px
+    }
+
+    .company .company_contentbox {
+        margin-left: 3rem;
+        margin-bottom: 2rem
+    }
+
+    .company .big-img {
+        width: 84%
+    }
+
+    .company .companyimagesbox {
+        width: 47%
+    }
+
+    .company-2 .skilss_bar .bar .info span,
+    .custom-2 .cta span {
+        font-size: 13px
+    }
+
+    .Cta .ctaformback,
+    .Cta_section .cta_flex,
+    .company-2 .skilss_bar {
+        width: 100%
+    }
+
+    .company-2 .bar .progress_line span::after {
+        right: -8px;
+        font-size: 12px
+    }
+
+    .company-3 .para_expertize {
+        font-size: 15px
+    }
+
+    .company-3 .lid,
+    .company-3 .mid {
+        margin: 0 93px
+    }
+
+    .Cta .button-1 {
+        padding: 11px;
+        font-size: 13px
+    }
+
+    .Cta_section .cta_flex button span {
+        font-size: 14px
+    }
+
+    .custombtn {
+        margin: 2rem 4rem
+    }
+
+    .design-3 .content_boxes {
+        grid-template-columns: 500px
+    }
+
+    .cta .modacontent {
+        width: 48%;
+        left: 1rem
+    }
+
+    .Cta .modal,
+    .design-2 .request_quote,
+    .design-4 .request_quote,
+    .germany-2 .request_quote {
+        display: block
+    }
+
+    .global-2 .globeparaleft {
+        display: grid;
+        grid-template-columns: 518px;
+        margin: 0 160px
+    }
+
+    .testimonial_1 .clientlogo .client_logo2 {
+        left: 26rem
+    }
+
+    .testimonial_1 .big_image {
+        margin: 0 96px;
+        width: 65%
+    }
+
+    .testimonial_1 .clientlogo .client_logo1 {
+        right: 25rem
+    }
+
+    .custom-2 .cta {
+        margin: 10px 12rem
+    }
+
+    .custom-3 .custombtn {
+        margin: 1rem 5rem;
+        font-size: 12px
+    }
+
+    .contact-2 .contact_content ul,
+    .simplewrap {
+        display: block !important
+    }
+
+    .grid-1 .btn {
+        margin: auto 84px
+    }
+
+    .captcha_box h4 {
+        margin-left: 159px !important
+    }
+
+    .Expo-logo {
+        width: 106px;
+        z-index: 1
+    }
+
+    .Cta .ctaheadings {
+        font-size: 1.3rem
+    }
+
+    .Cta .modalcontent {
+        left: 2rem
+    }
+
+    .Cta .modalcontent .user-details .input-box input {
+        padding: 12px 8px
+    }
+
+    .Cta .modalclose {
+        right: 4rem;
+        top: 49px
+    }
+
+    .Cta .ctaformback #form {
+        margin: auto
+    }
+
+    .double-2 .doubleimage2 {
+        left: 0
+    }
+
+    .port_content .bloc_lists li {
+        padding: 11px 18px;
+        font-size: .8rem
+    }
+
+    .port_content .bloc-tabs ul li.active::before {
+        right: 89px
+    }
+
+    .port_content .gallery_item,
+    .port_content .gallery_item2,
+    .port_content .gallery_item3 {
+        grid-template-columns: 280px 280px
+    }
+
+    .trade_img {
+        width: 92%;
+        height: 174px
+    }
+
+    .contact-2 .contact_flex {
+        margin: inherit;
+        column-gap: 95px
+    }
+
+    .white-back {
+        width: 55%
+    }
+
+    .btn-quote {
+        left: 130px
+    }
+
+    .popslider .grids {
+        display: grid;
+        grid-template-columns: 300px 300px;
+        margin: auto
+    }
+
+    .design-2 .custombtn {
+        margin: 1rem 7rem;
+        padding: 12px 23px
+    }
+
+    .design-2 .desingcrd {
+        grid-template-columns: 400px;
+        margin: inherit
+    }
+
+    .content_boxes {
+        grid-template-columns: 600px;
+        margin: auto
+    }
+
+    .main_contents img {
+        width: 13%
+    }
+
+    .cta {
+        left: 15rem;
+        top: -1rem
+    }
+
+    .design-2 .rqpara-2,
+    .design-4 .rqpara-2 {
+        margin: 35px 9px
+    }
+
+    .design-2 .cta span,
+    .design-4 .cta span {
+        font-size: 12px
+    }
+}
+
+@media screen and (max-width:460px) {
+    h1 {
+        font-size: 2em !important
+    }
+
+    h2 {
+        font-size: 1.5em !important
+    }
+
+    h3 {
+        font-size: 1.17em !important
+    }
+
+    h4 {
+        font-size: 1em !important
+    }
+
+    .row .col-m-12 {
+        flex-basis: 100%;
+        max-width: 100%
+    }
+
+    .caseStudy .majors {
+        padding-top: 2%
+    }
+
+    .company-2 .company-specialist,
+    .custom-2 .customstand_heading2,
+    .design-3 h3,
+    .design-3 p,
+    .wrap-5 .years-experience {
+        padding: 10px
+    }
+
+    .casestudy1 .globalheading,
+    .ctaheadings,
+    .double-2 .customheading2 {
+        font-size: 1rem
+    }
+
+    .casestudy2 .serviceBox {
+        margin: 0 47px 30px
+    }
+
+    .row .colm-m-8 {
+        flex-basis: 66.66%;
+        max-width: 66.66%
+    }
+
+    .container,
+    .wrap-2 .service-head {
+        max-width: 100%
+    }
+
+    .custom-2 .circle-box {
+        left: -16px;
+        width: 9%
+    }
+
+    .design-2 .cardds .image img {
+        width: 84%;
+        padding: 11px;
+        margin: 0 14px
+    }
+
+    .design-2 .cardds:hover .image img {
+        opacity: .5;
+        transform: translateX(1%)
+    }
+
+    .trade-2 .left_tradebox {
+        width: 44%
+    }
+
+    .design-2 .serviceBoxes {
+        margin: 12px 21px 34px;
+        height: 428px
+    }
+
+    .cta {
+        left: 7rem;
+        top: -1rem
+    }
+
+    .cardds {
+        transform: translate(0, 1%)
+    }
+
+    .cardds .details .center p {
+        font-size: 8px
+    }
+
+    .footer-box {
+        padding: 0 20px
+    }
+
+    .cardds .details .center h3,
+    .design-4 .request_quote .cta span {
+        font-size: 12px
+    }
+
+    nav ul ul li a {
+        font-size: 13px;
+        padding: 0 14px
+    }
+
+    .germany-2 .german_cards {
+        display: grid;
+        grid-template-columns: 286px;
+        margin: 0 77px
+    }
+
+    .delivery-2 .processor_concept,
+    .form-1 .register,
+    .germany-2 .request_quote,
+    .modal-container form .user-details,
+    .modal-container2 form .user-details,
+    .modal-container3 form .user-details,
+    .slick-slider {
+        display: block
+    }
+
+    .btn-quote {
+        left: 138px;
+        top: -18px
+    }
+
+    .germany-2 .cta:before {
+        top: 5px;
+        left: -15px;
+        width: 40px;
+        height: 38px;
+        transition: .3s
+    }
+
+    .germany-2 .cta {
+        left: 11rem
+    }
+
+    .germany-2 .cta span {
+        font-size: 13px;
+        line-height: 43px
+    }
+
+    .germany-2 .rqpara-2 {
+        margin: 20px 9px
+    }
+
+    .global-2 .globeparaleft {
+        display: grid;
+        grid-template-columns: 358px;
+        margin: 0 59px
+    }
+
+    .mobilehide {
+        display: none
+    }
+
+    .main .work-2 {
+        margin-bottom: -5rem
+    }
+
+    .work-5 .work-heading {
+        margin-top: -1rem
+    }
+
+    .footer-1 .expo-row::before {
+        top: 209px
+    }
+
+    .footer-1 img {
+        width: 50%;
+        float: right
+    }
+
+    .form-1 .form-item a,
+    .modal-container3 form .user-details .designsub,
+    .universe-1 .universe-list a {
+        font-size: .8rem
+    }
+
+    .universe-1 .universe-item {
+        display: grid;
+        grid-template-columns: 200px 200px
+    }
+
+    .port_content .gallery_item2,
+    .port_content .gallery_item3 {
+        grid-template-columns: 215px 215px
+    }
+
+    .work-5 .article_grid {
+        grid-template-columns: 338px;
+        margin: auto
+    }
+
+    .work-5 .article-box {
+        margin-bottom: 4rem;
+        display: grid;
+        grid-template-columns: 333px;
+        row-gap: 49px;
+        margin-left: 4px
+    }
+
+    .captcha-box {
+        width: 114% !important
+    }
+
+    .text-box .tree-heading {
+        font-size: 1rem !important
+    }
+
+    .wrap-2 .service-1 img {
+        height: 299px;
+        max-width: 100%
+    }
+
+    .audio_two .germanpara,
+    .company .company_para,
+    .company-3 .leftpara,
+    .construction-2 .germanpara,
+    .custom-2 .excel-para,
+    .custom-2 .intro-para3,
+    .custom-3 .accordion,
+    .design-2 .germanpara,
+    .form-1 .icon,
+    .germany-2 .germanpara,
+    .germany-2 .iiPdHR h1,
+    .global-2 .para_expertize,
+    .graphic-2 .intro-para3,
+    .stanbuilder-1 .intro-para3,
+    .tab__content p,
+    .testimonial_2 .details .job,
+    .testimonial_2 .details .name,
+    .testimonial_2 .slide p,
+    .wrap-5 .yearexp-para {
+        font-size: 14px
+    }
+
+    .company-2 .skilss_bar .bar .info span,
+    .company-3 .rightpara,
+    .custom-2 .cta span,
+    .custom-3 .accordionDrop {
+        font-size: 13px
+    }
+
+    .custom-3 .custombtn {
+        margin: 1rem 2rem;
+        font-size: 12px
+    }
+
+    .wrap-2 .service-1 {
+        max-width: 70%
+    }
+
+    .wrap-2 .service-head h4 {
+        font-weight: 400
+    }
+
+    .wrap-2 .excel_gridbox {
+        margin: auto 40px
+    }
+
+    .design-2 .gifrow .gifp2,
+    .german_img {
+        left: 0
+    }
+
+    .wrap-4 .box {
+        width: 42%;
+        margin: 3rem auto
+    }
+
+    .trades {
+        width: 43%;
+        font-size: 11px;
+        display: block;
+        margin: -41px 17px
+    }
+
+    .excel_gridbox {
+        display: grid;
+        grid-template-columns: 450px
+    }
+
+    .wrap-6 .right-container .tree_logo {
+        left: -2rem
+    }
+
+    .wrap-6 .right-container-arrow {
+        left: 1rem
+    }
+
+    .wrap-6 .tree_logo {
+        top: -3.4rem
+    }
+
+    .form-1 .threeD_para {
+        font-size: 1.3rem;
+        margin-bottom: 1rem
+    }
+
+    .germany-2 .custom_list li,
+    .grid-1 p {
+        font-size: 14px;
+        padding: 10px
+    }
+
+    .form-1 #form {
+        margin: 2em;
+        padding: 0 65px
+    }
+
+    .form-1 .user-details {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 10px;
+        row-gap: 10px;
+        column-gap: 10px
+    }
+
+    .footer-1 .social_iconslist li a {
+        width: 28px;
+        height: 28px;
+        line-height: 30px;
+        font-size: 8px
+    }
+
+    .universe-1 .reserved span {
+        font-size: 10px
+    }
+
+    .input-box input::placeholder {
+        font-size: 11px
+    }
+
+    .form-1 textarea {
+        margin: 12px 0
+    }
+
+    .form-1 .custom-file-upload {
+        display: inline;
+        width: 100%;
+        height: auto
+    }
+
+    .company .company_box {
+        margin: 3rem 57px
+    }
+
+    .company .company_heading {
+        font-size: 21px
+    }
+
+    .company-1 .cheading,
+    .company-2 .company-specialist {
+        font-size: 1.4rem;
+        font-weight: 500
+    }
+
+    .company .company_contentbox {
+        margin-left: -1rem;
+        margin-bottom: 2rem
+    }
+
+    .company .company_box::before {
+        content: "";
+        position: absolute;
+        left: 44px;
+        top: -17px
+    }
+
+    .company .company_logo {
+        left: 2.5rem;
+        top: -2rem;
+        max-width: 23%
+    }
+
+    .company .company_contentbox img {
+        max-width: 78%;
+        margin: auto auto 1rem;
+        display: flex
+    }
+
+    .company .companyimagesbox {
+        top: 25rem;
+        width: 60%;
+        left: 1rem
+    }
+
+    .company-1 .company_content {
+        margin: 2rem -11rem 5rem 26px
+    }
+
+    .section .company-1 {
+        border-right: none
+    }
+
+    .company-1 .cpara {
+        font-size: 14px;
+        padding: 15px
+    }
+
+    .company-2 .company_p {
+        font-size: 14px;
+        padding: 20px
+    }
+
+    .company-1 .paragraph1 {
+        padding: 1rem 35px;
+        width: 152%;
+        color: #fff;
+        left: 1.9rem;
+        top: 1rem;
+        font-size: 14px
+    }
+
+    .company-1 .paragraph1 span {
+        padding: 5px 10px;
+        left: -9px;
+        top: 27px
+    }
+
+    .modal-container form .user-details #message,
+    .modal-container2 form .user-details #message,
+    .section .company-2 .bars .skilss_bar {
+        width: 101%
+    }
+
+    .company-2 .bar .progress_line span::after {
+        right: -6px;
+        top: -61px;
+        font-size: 12px;
+        width: 78%;
+        height: 326%;
+        display: flex;
+        align-items: center
+    }
+
+    .company-3 .company-specialist {
+        font-size: 1.3rem;
+        font-weight: 500;
+        padding: 2px
+    }
+
+    .company-3 .para_expertize {
+        font-size: 14px;
+        margin-top: -12px
+    }
+
+    .company-3 .left_icon {
+        width: 28%;
+        height: 34%;
+        right: -2rem;
+        z-index: 1;
+        top: -6px
+    }
+
+    .company-3 .left_icon img,
+    .company-3 .right_icon img {
+        width: 46px
+    }
+
+    .company-3 .right_icon {
+        left: -3rem;
+        z-index: 1;
+        top: 0
+    }
+
+    .company-3 .lid,
+    .company-3 .mid {
+        margin: 0 110px
+    }
+
+    .global-2 .paragraph {
+        font-size: .9rem;
+        width: 330px;
+        margin: 5px -8px
+    }
+
+    .team-2 .para_expertize,
+    .team-2 .team_para {
+        margin: 10px
+    }
+
+    .testimonial_1 .onetestimonial,
+    .testimonial_1 .twotestimonial {
+        width: 43%
+    }
+
+    .testimonial_1 .big_image {
+        padding: 0 41px;
+        margin: 0 21px;
+        border-radius: 76px 76px 40px 40px;
+        height: 120%;
+        width: 85%
+    }
+
+    .testimonial_1 .clientlogo .client_logo2 {
+        width: 21%;
+        left: 18rem;
+        top: auto
+    }
+
+    .testimonial_1 .clientlogo .client_logo1 {
+        width: 21%;
+        right: 20rem;
+        top: 31rem
+    }
+
+    .port_content .bloc-tabs {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 8px
+    }
+
+    .port_content .bloc_lists li {
+        font-size: 11px;
+        padding: 9px 4px
+    }
+
+    .port_content .gallery_item {
+        grid-template-columns: 220px 220px
+    }
+
+    .port_content .bloc-tabs ul li.active::before {
+        height: 7px;
+        top: 25px;
+        right: 57px
+    }
+
+    .major-1 .mbox {
+        width: 46%
+    }
+
+    .germany-2 .cities_box {
+        width: 346px
+    }
+
+    .germany-2 .cities_links {
+        grid-template-columns: 120px 120px;
+        column-gap: 97px
+    }
+
+    .germany-2 .custom_list {
+        padding: 0 20px;
+        font-size: .9rem
+    }
+
+    .germany-2 .excel-para {
+        font-size: 14px;
+        margin: 10px
+    }
+
+    .germany-2 .german_paragraph p {
+        font-size: 14px;
+        padding: 10px 20px
+    }
+
+    .germany-2 .cities_hd {
+        font-size: 1.1rem;
+        font-weight: 500
+    }
+
+    .form-1 .captcha_box {
+        margin-top: 1rem
+    }
+
+    .form-1 .captcha_box input {
+        width: 58% !important
+    }
+
+    .form-1 .from_sendbtn {
+        width: auto;
+        height: auto;
+        margin-bottom: 2rem
+    }
+
+    .captcha_box #succesBTN {
+        font-size: 13px;
+        position: relative;
+        top: 11px
+    }
+
+    .double-1 .custompara {
+        font-size: .9rem;
+        width: 94%;
+        margin: auto
+    }
+
+    .design-2 .card_para,
+    .design-2 .custom-box,
+    .design-2 .gif_para,
+    .design-2 .juMGlC .data_items,
+    .design-3 p,
+    .tab__label {
+        font-size: 15px
+    }
+
+    .grid-1 .btn {
+        margin: 0 10px
+    }
+
+    .design-2 .Standdesign_heading {
+        padding: 0 1px
+    }
+
+    .graphic-1 .graphic_imagebox img {
+        margin-left: 2.5rem;
+        width: 80%
+    }
+
+    .visual {
+        width: 100%
+    }
+
+    .custom-2 .request_quote {
+        width: 103%
+    }
+
+    .custom-2 .cta {
+        margin: 10px 9rem
+    }
+
+    .swiperTest .testimonials {
+        padding: 367px 0
+    }
+
+    .testimonial_2 .flex1 i {
+        color: #eac612;
+        font-size: .5em
+    }
+
+    .request_quote,
+    .simplewrap {
+        display: block !important
+    }
+
+    .designdelivery .delivery_head {
+        margin: 47px 3rem;
+        color: #fff;
+        font-size: 1.8rem
+    }
+
+    .delivery-2 .processor_concept .concept-1 {
+        margin: 0 68px
+    }
+
+    .delivery-2 .delivery_main {
+        font-size: 1.1rem
+    }
+
+    .delivery-2 .content_review {
+        margin: 1rem 5rem;
+        text-align: center
+    }
+
+    .delivery-2 .Review_head,
+    .video-1 .marquee span {
+        font-size: 18px
+    }
+
+    .delivery-2 .delivery_icon {
+        display: flex;
+        justify-content: center;
+        transform: rotate(90deg)
+    }
+
+    .delivery-2 .concept-1 iframe {
+        width: 105%;
+        height: 194px
+    }
+
+    .contact-2 .contact_flex {
+        display: block;
+        margin: auto
+    }
+
+    .video-1 .marquee div {
+        width: 1000%
+    }
+
+    .white-back {
+        width: 77%;
+        top: 8rem
+    }
+
+    .excelgridrow {
+        display: block;
+        margin: 0 -6px
+    }
+
+    .slidesimage img {
+        width: 100%;
+        object-fit: cover
+    }
+
+    .modal-container,
+    .modal-container2,
+    .modal-container3 {
+        top: -63px
+    }
+
+    .modal-container form .user-details .input-box,
+    .modal-container2 form .user-details .input-box {
+        margin: 10px 0
+    }
+
+    .modal-container form .user-details .from_sendbtn,
+    .modal-container2 form .user-details .from_sendbtn,
+    .modal-container3 form .user-details .from_sendbtn {
+        width: auto
+    }
+
+    .modal-container3 form .user-details .input-box {
+        margin: 9px 0
+    }
+
+    .modal-container .from_sendbtn {
+        font-size: .7rem
+    }
+
+    .Cta_section .cta_flex {
+        width: 81%;
+        height: 100%;
+        display: block
+    }
+
+    #open2,
+    #open3,
+    .Cta_section .cta_flex #open {
+        font-size: 12px;
+        width: 100%
+    }
+
+    .blog-2 .blog_gallery {
+        grid-template-columns: 346px;
+        margin: auto
+    }
+
+    .popslider .grids {
+        display: grid;
+        grid-template-columns: 300px;
+        margin: 0 0 0 50px
+    }
+
+    .design-2 .desingcrd,
+    .design-3 .content_boxes {
+        grid-template-columns: 400px
+    }
+
+    .design-2 .custombtn {
+        margin: 1rem 0
+    }
+
+    .design-2 .border-rightstandesing,
+    .design-3 .border-rightstandesing,
+    .design-4 .border-rightstandesing {
+        border: none
+    }
+
+    .design-2 .esdconent {
+        height: auto
+    }
+
+    .design-2 .disccardds {
+        width: 423px
+    }
+
+    .design-2 .disccardds .desimg {
+        width: 395px
+    }
+
+    .design-2 .contact_card:hover {
+        height: 367px
+    }
+
+    .design-3 .content_boxes {
+        margin: auto
+    }
+
+    .design-3 h4 {
+        padding: 0 10px;
+        font-size: 17px !important
+    }
+
+    .design-3 .main_contents img {
+        width: 16%
+    }
+
+    .rqpara-2 {
+        margin: 26px 9px !important
+    }
+
+    .request_quote .cta:before {
+        top: 6px;
+        background: rgba(226, 225, 225, .502);
+        width: 42px;
+        height: 40px
+    }
+
+    .design-4 .request_quote .cta {
+        left: 10rem;
+        top: -1rem
+    }
+
+    .design-4 .request_quote .rqpara-2 {
+        margin: 28px 9px
+    }
+
+    .design-2 .gif_para {
+        width: 88%;
+        margin: auto;
+        display: block
+    }
+
+    .double-2 .DoubleSide {
+        margin: 10px 20px;
+        width: 90%
+    }
+
+    .custom-2 .custompara {
+        font-size: .9rem;
+        margin: 0 2px
+    }
+
+    .custom-2 .modular_border {
+        width: 391px !important
+    }
+
+    .custom-3 .popslider .grids {
+        grid-template-columns: auto;
+        row-gap: 1rem;
+        margin: auto
+    }
+
+    .custom-2 .sidecustom {
+        top: 2rem;
+        left: 0
+    }
+
+    .graphic-1 .graphic_heading {
+        font-size: 1.2rem !important
+    }
+
+    .trade-2 .trades {
+        width: 51%;
+        margin: -41px .7rem
+    }
+
+    .double-2 .doublepara {
+        font-size: .9rem;
+        padding: 20px;
+        margin: 0 12px
+    }
+
+    .custom-2 .moudlar_services {
+        display: grid;
+        grid-template-columns: 100%;
+        row-gap: 20px;
+        margin: 0 16px 16px 28px;
+        height: auto
+    }
+}
+
+@media screen and (max-width:360px) {
+    .row .logo_col {
+        position: fixed;
+        top: 0;
+        background: #fff;
+        width: 100%;
+        z-index: 2;
+        box-shadow: -18px 10px 10px -10px #a8cf45;
+        height: 12%
+    }
+
+    .sidebar-form.show {
+        right: 39px
+    }
+
+    #closeside {
+        width: 25%;
+        position: relative;
+        left: 1rem;
+        top: -19rem
+    }
+
+    .menu-icon {
+        top: -7px;
+        position: fixed
+    }
+
+    .excelgridrow {
+        display: block;
+        margin: 0 12px 0 -35px
+    }
+
+    .wrap-2 .excel_gridbox {
+        display: grid;
+        grid-template-columns: 450px;
+        margin: auto 37px
+    }
+
+    .port_content .gallery_item,
+    .port_content .gallery_item2 {
+        grid-template-columns: 294px
+    }
+
+    .german_img {
+        left: 0
+    }
+
+    .double-2 .customheading2 {
+        margin-top: 1rem
+    }
+
+    .Acchead,
+    .custom-2 .cutom-firsthead h4,
+    .double-2 .custom_content p,
+    .video-1 .marquee span {
+        font-size: 14px
+    }
+
+    .text-box {
+        left: -.5rem
+    }
+
+    .grid-1 .btn {
+        margin: 0 -34px
+    }
+
+    .delivery-2 .processor_concept,
+    .form-1 .register,
+    .pop .ctaback {
+        display: block
+    }
+
+    .form-1 .from_sendbtn {
+        margin: 39px 41px
+    }
+
+    .captcha_box #succesBTN {
+        top: 28px;
+        left: 49px
+    }
+
+    .testimonial_1 .clientlogo .client_logo2 {
+        width: 21%;
+        left: 16rem;
+        top: auto
+    }
+
+    .testimonial_1 .clientlogo .client_logo3 {
+        width: 21%;
+        top: 37rem;
+        left: 1.3rem
+    }
+
+    .testimonial_1 .clientlogo .client_logo1 {
+        width: 21%;
+        right: 17rem;
+        top: 31rem
+    }
+
+    .testimonial_1 .testiimage {
+        width: 25%;
+        margin: 8px 7px;
+        height: 39px
+    }
+
+    .testimonial_1 .flex1 {
+        font-size: .8rem
+    }
+
+    .form-1 #form,
+    .modal-container #form {
+        margin: 2em 1em;
+        padding: 2rem
+    }
+
+    .company-3 .left_icon img {
+        width: 33px
+    }
+
+    .company-3 .right_icon img {
+        width: 39px
+    }
+
+    .company-3 .left_icon {
+        width: 23%;
+        height: 28%
+    }
+
+    .company-3 .comp_row {
+        margin: auto 46px
+    }
+
+    .company-1 .company_content {
+        margin: 2rem -8rem 5rem 26px
+    }
+
+    .company-1 .paragraph1 {
+        width: 137%
+    }
+
+    .company-3 .mid {
+        margin: 0 -23px
+    }
+
+    .company-3 .lid {
+        margin: 0 -14px
+    }
+
+    .company-3 .leftside_para,
+    .company-3 .rightside_para {
+        width: 134%
+    }
+
+    .global-2 .globeparaleft {
+        margin: 0 40px
+    }
+
+    .custom-3 .customquote {
+        font-size: 1rem;
+        margin-bottom: 1rem;
+        text-align: center
+    }
+
+    .custom-3 .custombtn {
+        margin: 1rem -1rem;
+        font-size: 11px
+    }
+
+    .delivery-2 .delivery_main,
+    .double-2 .double_heading {
+        font-size: 1.1rem
+    }
+
+    .grid {
+        display: none !important
+    }
+
+    .custom-4 #accordian,
+    .flex {
+        display: none
+    }
+
+    .port_content .bloc-tabs ul {
+        margin: 1rem -61px;
+        position: relative;
+        left: 0
+    }
+
+    .port_content .gallery_item {
+        margin: 0 30px
+    }
+
+    .port_content .gallery_item3 {
+        grid-template-columns: 294px;
+        margin: 0 27px
+    }
+
+    .port_content .bloc_lists li {
+        padding: 9px 4px;
+        font-size: 9px
+    }
+
+    .port_content .bloc-tabs ul li.active::before {
+        height: 5px;
+        top: 23px;
+        left: -11px
+    }
+
+    .port_content .gallery_item,
+    .port_content .gallery_item3 {
+        grid-template-columns: 240px
+    }
+
+    .port_content .gallery_item2 {
+        grid-template-columns: 240
+    }
+
+    .trade_heading {
+        font-size: 1.7rem;
+        margin-top: 15%;
+        backdrop-filter: blur(49px)
+    }
+
+    .psiLogo {
+        width: 47%
+    }
+
+    .buttonpop {
+        font-size: .8rem !important;
+        padding: 8px
+    }
+
+    .design-2 .gif_para,
+    .show,
+    nav ul li a {
+        font-size: 15px
+    }
+
+    .germany-2 .VsDAs p {
+        font-size: .9rem;
+        backdrop-filter: blur(10px);
+        color: #000;
+        padding: 6px
+    }
+
+    .design-2 .Standdesign_heading {
+        padding: 0 5px
+    }
+
+    .graphic-1 .graphic_imagebox img {
+        margin-left: 2rem;
+        width: 80%
+    }
+
+    .custom-2 .video-border {
+        width: 329px;
+        margin: 0 auto 23px;
+        backdrop-filter: blur(51px)
+    }
+
+    .custom-2 .sidecustom {
+        top: 2rem;
+        left: 0
+    }
+
+    .custom-2 .circle-box {
+        left: -16px;
+        width: 12%;
+        height: 51%;
+        top: 17px
+    }
+
+    .designdelivery .delivery_head {
+        margin: 47px 3rem;
+        color: #fff;
+        font-size: 1.8rem
+    }
+
+    .delivery-2 .content_review {
+        margin: 1rem;
+        text-align: center
+    }
+
+    .delivery-2 .Review_head {
+        font-size: 18px
+    }
+
+    .delivery-2 .delivery_icon {
+        display: flex;
+        justify-content: center;
+        transform: rotate(90deg)
+    }
+
+    .delivery-2 .concept-1 iframe {
+        width: 105%;
+        height: 194px
+    }
+
+    .contact-2 .contact_flex {
+        display: block;
+        margin: auto
+    }
+
+    .wrap-6 .contain_2 {
+        width: 106%;
+        margin: 60px -5px
+    }
+
+    .white-back {
+        width: 77%;
+        top: 8rem
+    }
+
+    .Expo-logo {
+        width: 114px
+    }
+
+    [id^=btn]:checked+ul {
+        display: block;
+        background: #a8cf45;
+        height: 100%;
+        width: 100%
+    }
+
+    nav ul .unorder_sublinks li,
+    nav ul li {
+        color: #a8cf45
+    }
+
+    nav ul li a {
+        line-height: 30px
+    }
+
+    .show {
+        padding: 47px 9px
+    }
+
+    .navbar .exhbdrop_links {
+        padding: 8px 3px
+    }
+
+    .popslider .grids {
+        display: grid;
+        grid-template-columns: 300px;
+        margin: 0 0 0 -14px
+    }
+
+    .nav-menu {
+        width: 66%
+    }
+
+    nav a {
+        padding: 6px 15px
+    }
+
+    .cta_flex button {
+        left: 63px
+    }
+
+    .cta_flex #open2 {
+        left: 78px
+    }
+
+    .modal-container2 .models {
+        height: 306px
+    }
+
+    .modal-container2 .models #form {
+        margin: 1em 0;
+        padding: 1rem 2rem
+    }
+
+    .modal-container3 .models #form {
+        margin: 1em;
+        padding: 2rem 1rem
+    }
+
+    .modal-container3 .modelss .modalicons {
+        top: 24px;
+        right: 49px
+    }
+
+    .double-2 .cutom-firsthead,
+    .germany-1 .glassEffect h1 {
+        font-size: 1rem
+    }
+
+    div.p p {
+        font-size: 13px
+    }
+
+    .DoubleSide {
+        margin: 10px 0
+    }
+}
