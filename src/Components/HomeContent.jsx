@@ -1,5 +1,5 @@
 import React from 'react';
-import vide from '@/Components/Videoplay/videohome.webm';
+import vide from '@/Components/Videoplay/Video.mp4';
 const HomeContent = () => {
     return (
         <div>
