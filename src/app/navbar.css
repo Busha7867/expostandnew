@@ -1206,9 +1206,9 @@ img {
     border-bottom-style: double;
     text-align: center;
 }
-/* }.wrap-5 {
-    background: url(../Components/images/back_line.webp) no-repeat top center / cover
-} */
+.wrap-5 {
+    background: url(../Components/Images/) no-repeat top center / cover
+}
 .yearexp-para {
     margin-bottom: 2rem;
     margin-top: -1rem;
