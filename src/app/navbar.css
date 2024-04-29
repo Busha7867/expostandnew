@@ -1217,7 +1217,7 @@ img {
 
 
 .wrap-6 {
-  background: linear-gradient(rgb(255 255 255 / 48%), rgb(255 255 255)) fixed, url(../Components/images/treestand.webp) top center/cover no-repeat fixed;
+  background: linear-gradient(rgb(255 255 255 / 48%), rgb(255 255 255)) fixed, url(../Components/Images/treestand.webp) top center/cover no-repeat fixed;
   z-index: 0;
   position: relative;
 }
