@@ -34,16 +34,16 @@ import Production from '@/Components/Images/production.png';
 import Img3 from '@/Components/Portimage/Moular/Modular4.jpg';
 import { FaRegHandPointRight } from "react-icons/fa6";
 import Expandingcards from './Expandingcard';
-import Ib from '../Components/Logoslider/ibc-logo.png';
-import Fruit from '../Components/Logoslider/Fruit.jpg';
-import Aa from '../Components/Logoslider/aa.webp';
-import Sea from '../Components/Logoslider/seafood.jpg';
-import Fib from '../Components/Logoslider/FIBO.jpg';
-import clas from '../Components/Logoslider/Class.jpg';
-import Zim from '../Components/Logoslider/zim-trade.jpg';
-import AA from '../Components/Logoslider/NFSSP.jpg';
-import FreshPerch from '../Components/Logoslider/Fresh.webp';
-import Neon from '../Components/Logoslider/neonetic.jpg';
+import Ib from '@/Components/Logoslider/ibc-logo.png';
+import Fruit from '@/Components/Logoslider/Fruit.jpg';
+import Aa from '@/Components/Logoslider/aa.webp';
+import Sea from '@/Components/Logoslider/seafood.jpg';
+import Fib from '@/Components/Logoslider/FIBO.jpg';
+import clas from '@/Components/Logoslider/Class.jpg';
+import Zim from '@/Components/Logoslider/zim-trade.jpg';
+import AA from '@/Components/Logoslider/NFSSP.jpg';
+import FreshPerch from '@/Components/Logoslider/Fresh.webp';
+import Neon from '@/Components/Logoslider/neonetic.jpg';
 import Bloggg from '@/app/Blog/Bloggg';
 
 
