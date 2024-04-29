@@ -1215,12 +1215,12 @@ img {
     text-align: center
 }
 
-/* 
+
 .wrap-6 {
   background: linear-gradient(rgb(255 255 255 / 48%), rgb(255 255 255)) fixed, url(../Components/images/treestand.webp) top center/cover no-repeat fixed;
   z-index: 0;
   position: relative;
-} */
+}
 .contain_2 {
   padding: 0 50px;
   position: relative;
