@@ -46,7 +46,7 @@ import FreshPerch from '@/Components/Logoslider/Fresh.webp';
 import Neon from '@/Components/Logoslider/neonetic.jpg';
 import ArticleBlog from '@/app/Article/ArticleBlog';
 import LogoSLider from './LogoSLider';
-import Counterup from './CounterUp';
+import Counterup from './Counterup';
 import Mainform from './Mainform';
 import Footer from './Footer';
 const HomeContent = () => {
