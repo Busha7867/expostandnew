@@ -3,6 +3,10 @@ import "./globals.css";
 import Navbar from "@/Components/navbar/Navbar";
 import '@/Components/Responsive.css';
 import '@/app/navbar.css';
+import Counterup from "@/Components/Counterup";
+import Footer from "@/Components/Footer";
+import Universe from "@/Components/Universe";
+import Mainform from "@/Components/Mainform";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -18,6 +22,10 @@ export default function RootLayout({ children }) {
         <Navbar/>
         
         {children}
+        <Counterup/>
+        <Mainform/>
+        <Footer/>
+        <Universe/>
         
         
         </body>
