@@ -1,7 +1,7 @@
 'use client'
 
 import React from 'react';
-import { useState,useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import Vide from '@/Components/videoplay/Video.mp4'
 import Image from 'next/image';
@@ -44,12 +44,13 @@ import Zim from '@/Components/Logoslider/zim-trade.jpg';
 import AA from '@/Components/Logoslider/NFSSP.jpg';
 import FreshPerch from '@/Components/Logoslider/Fresh.webp';
 import Neon from '@/Components/Logoslider/neonetic.jpg';
+import ArticleBlog from '@/app/Article/ArticleBlog';
 
 
 
 const HomeContent = () => {
 
-    
+
     const [posts, setPosts] = useState([]);
 
     useEffect(() => {
@@ -504,7 +505,7 @@ const HomeContent = () => {
                     </div>
                     <div className="row">
                     </div>
-                    <Expandingcards/>
+                    <Expandingcards />
 
 
                     < button className="btn"><span> <Link href="" className='btn-link'>VIEW MORE SUCCESSFUL EXECUTION</Link></span></button>
@@ -591,8 +592,221 @@ const HomeContent = () => {
 
 
             </div>
-        
-            
+
+            <div className="work-4">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-3"></div>
+                        <div className="col-6 col-m-12 col-t-12 col-d-12"><h2 className='client_say'>What Our Client Says</h2></div>
+                        <div className="col-3"></div>
+                    </div>
+                    <div className="row">
+                        <div className="col-2"></div>
+                        <div className="col-8 col-m-12 col-t-12 col-d-12 ">
+
+                            <div className="bloc-tabs">
+                                <button
+                                    className={toggleState === 4 ? "tabs active-tabs" : "tabs"}
+                                    onClick={() => toggleTab(4)}
+                                >
+                                    <div className="clients_img">
+                                        IBC <Image src={Ib} alt="client say tab logo" className='client_pic' loading='lazy' />
+                                    </div>
+                                </button>
+                                <button
+                                    className={toggleState === 1 ? "tabs active-tabs" : "tabs"}
+                                    onClick={() => toggleTab(1)}
+                                >
+                                    <div className="clients_img">
+                                        Fruit Logistics <Image src={Fruit} alt="client say tab logo" className='client_pic' loading='lazy' />
+                                    </div>
+                                </button>
+                                <button
+                                    className={toggleState === 2 ? "tabs active-tabs" : "tabs"}
+                                    onClick={() => toggleTab(2)}
+                                >
+                                    <div className="clients_img">
+                                        A+A <Image src={Aa} alt="client say tab logo" className='client_pic' loading='lazy' />
+                                    </div>
+                                </button>
+                                <button
+                                    className={toggleState === 3 ? "tabs active-tabs" : "tabs"}
+                                    onClick={() => toggleTab(3)}
+                                >
+                                    <div className="clients_img">
+                                        Sea Food <Image src={Sea} alt="client say tab logo" className='client_pic' loading='lazy' />
+                                    </div>
+
+                                </button>
+
+
+                                <button
+                                    className={toggleState === 5 ? "tabs active-tabs" : "tabs"}
+                                    onClick={() => toggleTab(5)}
+                                >
+                                    <div className="clients_img">
+                                        Fibo <Image src={Fib} alt="client say tab logo" className='client_pic' loading='lazy' />
+                                    </div>
+
+                                </button>
+                            </div>
+                        </div>
+                        <div className="col-1"></div>
+                    </div>
+                    <div className="row">
+                        <div className="col-2"></div>
+                        <div className="col-12 col-m-12 col-t-12">
+
+                            <div className="content-tabs">
+                                <div className="row">
+                                    <div className="col-6 col-m-12 col-t-12 ">
+
+
+                                        <div
+                                            className={toggleState === 4 ? "content  active-content" : "content"}
+                                        >
+                                            <Image src={clas} alt="class x logo" className='content-images' loading='lazy' />
+                                            <p className='seeds'>Class X</p>
+                                            <span className='seeds-span'>IBC</span>
+                                            <p className='seeds-para'>
+                                                This year, we had a beautiful stand made by Expo Stand Services, a Polish company that has done a great job. We had a big green wall that was a part of our technology, a tremendous futuristic screen, some lights, and studio lights. The paint they used was technological. We also had a great supporting structure and a cabin with a fancy round window in our stand. The stand was excellent, thanks to the Expo Stand Services.
+                                            </p>
+
+                                        </div>
+
+
+
+                                        <div
+                                            className={toggleState === 1 ? "content  active-content" : "content"}
+                                        >
+                                            <Image src={Zim} alt="zim trade logo" className='content-images' loading='lazy' />
+                                            <p className='seeds'>Zim Trade</p>
+                                            <span className='seeds-span'>Fruit Logistics</span>
+                                            <p className='seeds-para'>
+                                                Hello, my name is Sharon Chigonzo, and I'm from the Zim trade in Zimbabwe. We had our stand constructed by Expo Stand Services, and we would like to say that we're very happy with the job that was done. It was done to our specifications, and we had given them all the things we wanted, and they incorporated them steadily and were very efficient. We would like to thank you and especially Robert and Lucas for their attention to detail and for helping us with everything. We look forward to working with them more in the future.
+
+                                            </p>
+
+                                        </div>
+
+                                        <div
+                                            className={toggleState === 2 ? "content  active-content" : "content"}
+                                        >
+                                            <Image src={AA} alt="nfssp logo" className='content-images' loading='lazy' />
+                                            <p className='seeds'>NFSSP</p>
+                                            <span className='seeds-span'>A+A Dusseldorf</span>
+                                            <p className='seeds-para'>
+                                                Thank you to the Expo Stand Services, as usual, they did a great job and professional one. They give us a better stand with great condition and quality and on time. The quality of the material and the efforts they put in, we appreciate it all!
+                                            </p>
+
+                                        </div>
+
+                                        <div
+                                            className={toggleState === 3 ? "content  active-content" : "content"}
+                                        >
+                                            <Image src={FreshPerch} alt="fresh perch logo" className='content-images' loading='lazy' />
+                                            <p className='seeds'>Fresh Perch</p>
+                                            <span className='seeds-span'>Sea Food
+                                            </span>
+                                            <p className='seeds-para'>
+                                                Hello, on behalf of Fresh Perch, we want to appreciate Expo Stand Services for constructing our stand for Barcelona Expo 2023. We gave them the contract very late, but they finished the job within a week and handed over the stand to us. The quality of the stand was up to our expectations, and next year we also look forward to giving them a contract.
+                                            </p>
+                                        </div>
+
+                                        <div
+                                            className={toggleState === 5 ? "content  active-content" : "content"}
+                                        >
+                                            <Image src={Neon} alt="neontech logo" className='content-images' loading='lazy' />
+                                            <p className='seeds'>NEONTECH</p>
+                                            <span className='seeds-span'>FIBO
+                                            </span>
+                                            <p className='seeds-para'>
+                                                We had such a great experience at FIBO this year. Our stand was really well built for potential clients, and people tried out all the machines, and any adaptations we needed to make to the stands FIBO's team helped us out and made the changes necessary. We are so happy to be here.
+                                            </p>
+
+                                        </div>
+                                    </div>
+                                    <div className="col-6 col-m-12  col-t-12">
+
+                                        <div
+                                            className={toggleState === 4 ? "content  active-content" : "content"}
+                                        >
+                                            <div className="iframe-video">
+
+                                                <iframe width={560} height={315} loading='lazy' src="https://www.youtube.com/embed/BpcT12Zavac?si=7twG6EZ-gu6kbXle" title='Class X' ></iframe>
+                                            </div>
+                                        </div>
+                                        <div
+                                            className={toggleState === 1 ? "content  active-content" : "content"}
+                                        >
+                                            <div className="iframe-video">
+
+                                                <iframe width={560} height={315} loading='lazy' src="https://www.youtube.com/embed/noejqUWglQI?si=bS9b2fVtDMdrZRme" title='Zim Trade' ></iframe>
+                                            </div>
+                                        </div>
+                                        <div
+                                            className={toggleState === 2 ? "content  active-content" : "content"}
+                                        >
+
+                                            <div className="iframe-video">
+                                                <iframe width={560} height={315} loading='lazy' src="https://www.youtube.com/embed/Oi_U85waJLA?si=J2N4L20rUJAqX-vD" title='NFSSP' ></iframe>
+                                            </div>
+
+                                        </div>
+                                        <div
+                                            className={toggleState === 3 ? "content  active-content" : "content"}
+                                        >
+                                            <div className="iframe-video">
+                                                <iframe width={560} height={315} loading='lazy' src="https://www.youtube.com/embed/9HVj4-mjfDM?si=N3Z_oIECjylE5uig" title='Fresh Perch'></iframe>
+                                            </div>
+
+                                        </div>
+
+                                        <div
+                                            className={toggleState === 5 ? "content  active-content" : "content"}
+                                        >
+                                            <div className="iframe-video">
+                                                <iframe width={560} height={315} loading='lazy' src="https://www.youtube.com/embed/0IFQ-enCLf8?si=hNhWJyAbUhCSr0KN" title='NEONTECH' ></iframe>
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="row">
+                        <div className="col-4"></div>
+                        <div className="col-4">
+                            <div className="design_btn">
+                                <Link href="/design/" className='des_btn second'>Explore Design</Link>
+
+
+                            </div>
+                        </div>
+                        <div className="col-4"></div>
+                    </div>
+
+                </div>
+            </div>
+            <div className="work-5">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-3"></div>
+                        <div className="col-6">
+                            <h2 className='work-heading'>Blog Bank</h2>
+                        </div>
+                        <div className="col-3"></div>
+                    </div>
+
+                    <div className="row">
+                        <ArticleBlog />
+
+                    </div>
+                </div>
+            </div>
+
         </div>
     )
 }
