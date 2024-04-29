@@ -5,7 +5,7 @@ import React from 'react';
 import axios from 'axios';
 import Link from 'next/link';
 import { useState,useEffect } from 'react';
-import Image from 'next/image';
+
 
 const PageB = () => {
 

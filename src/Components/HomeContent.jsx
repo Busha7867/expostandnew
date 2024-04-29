@@ -790,16 +790,7 @@ const HomeContent = () => {
 
                 </div>
             </div>
-            <Bloggg/>
-            <div className="work-5">
-                <div className="container">
-                    <div className="row">
-                        <Bloggg/>
-                  
-                    </div>
-                </div>
-            </div>
-        
+            
         </div>
     )
 }
