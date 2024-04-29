@@ -45,9 +45,10 @@ import AA from '@/Components/Logoslider/NFSSP.jpg';
 import FreshPerch from '@/Components/Logoslider/Fresh.webp';
 import Neon from '@/Components/Logoslider/neonetic.jpg';
 import ArticleBlog from '@/app/Article/ArticleBlog';
-
-
-
+import LogoSLider from './LogoSLider';
+import Counterup from './CounterUp';
+import Mainform from './Mainform';
+import Footer from './Footer';
 const HomeContent = () => {
 
 
@@ -806,7 +807,23 @@ const HomeContent = () => {
                     </div>
                 </div>
             </div>
+            <div className="logo-1">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-4"></div>
+                        <div className="col-4 col-m-12 col-l-12"><h2 className='slider-heading'>OUR CLIENTS</h2></div>
+                        <div className="col-4"></div>
+                    </div>
+                    <div className="row">
+                        <LogoSLider />
 
+                    </div>
+
+                </div>
+            </div>
+            <Counterup />
+            <Mainform/>
+            <Footer/>
         </div>
     )
 }

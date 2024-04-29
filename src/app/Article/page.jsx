@@ -31,7 +31,7 @@ const Blogs = () => {
   }, []);
   return (
     <div>
-      .wo
+
       <div className="article_grid">
         <div className="article-box">
           {posts.map(post => (

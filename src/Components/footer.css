@@ -1,0 +1,310 @@
+.expo-row {
+    border: 1px solid #a8cf45;
+    background: #fff
+}
+
+.footer-logo {
+    width: 61%
+}
+
+.social_media {
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 0 0 17px 17px
+}
+
+.social-container {
+    font-size: .6rem;
+    padding: 1rem;
+    height: 48px;
+    text-align: center;
+    background: #fff;
+    width: 6%;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative
+}
+
+.social_iconslist li .y {
+    color: red
+}
+
+.social_iconslist li .f {
+    color: #3b5998
+}
+
+.social_iconslist li .twit {
+    color: #000
+}
+
+.social_iconslist li .pint {
+    color: #e60023
+}
+
+.social_iconslist li .ins {
+    color: #c13584
+}
+
+.social_iconslist li .lin {
+    color: #0077b5
+}
+
+.social_iconslist li .tumb {
+    color: #36465d
+}
+
+.footer-heading {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-weight: 500;
+    font-size: 18px
+}
+
+.footer-heading::after {
+    content: "";
+    display: block;
+    width: 166px;
+    height: 2px;
+    background: #fff;
+    right: 0;
+    top: 50%
+}
+
+.footer_link .footer-lists a {
+    color: #fff;
+    font-size: 1rem;
+    line-height: 26px
+}
+
+.footer_link .footer-lists:hover a {
+    background: #fff;
+    color: #a8cf45;
+    transition: .2s ease-in-out;
+    padding: .3rem .6rem
+}
+
+.footer_icon {
+    color: #fff;
+    padding: 0 7px
+}
+
+.footer-1 {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25'%3E%3Cdefs%3E%3ClinearGradient id='a' gradientUnits='userSpaceOnUse' x1='0' x2='0' y1='0' y2='100%25' gradientTransform='rotate(181,683,328)'%3E%3Cstop offset='0' stop-color='%23A8CF45'/%3E%3Cstop offset='1' stop-color='%23A8CF45'/%3E%3C/linearGradient%3E%3Cpattern patternUnits='userSpaceOnUse' id='b' width='1585' height='1320.8' x='0' y='0' viewBox='0 0 1080 900'%3E%3Cg fill-opacity='0.05'%3E%3Cpolygon fill='%23444' points='90 150 0 300 180 300'/%3E%3Cpolygon points='90 150 180 0 0 0'/%3E%3Cpolygon fill='%23AAA' points='270 150 360 0 180 0'/%3E%3Cpolygon fill='%23DDD' points='450 150 360 300 540 300'/%3E%3Cpolygon fill='%23999' points='450 150 540 0 360 0'/%3E%3Cpolygon points='630 150 540 300 720 300'/%3E%3Cpolygon fill='%23DDD' points='630 150 720 0 540 0'/%3E%3Cpolygon fill='%23444' points='810 150 720 300 900 300'/%3E%3Cpolygon fill='%23FFF' points='810 150 900 0 720 0'/%3E%3Cpolygon fill='%23DDD' points='990 150 900 300 1080 300'/%3E%3Cpolygon fill='%23444' points='990 150 1080 0 900 0'/%3E%3Cpolygon fill='%23DDD' points='90 450 0 600 180 600'/%3E%3Cpolygon points='90 450 180 300 0 300'/%3E%3Cpolygon fill='%23666' points='270 450 180 600 360 600'/%3E%3Cpolygon fill='%23AAA' points='270 450 360 300 180 300'/%3E%3Cpolygon fill='%23DDD' points='450 450 360 600 540 600'/%3E%3Cpolygon fill='%23999' points='450 450 540 300 360 300'/%3E%3Cpolygon fill='%23999' points='630 450 540 600 720 600'/%3E%3Cpolygon fill='%23FFF' points='630 450 720 300 540 300'/%3E%3Cpolygon points='810 450 720 600 900 600'/%3E%3Cpolygon fill='%23DDD' points='810 450 900 300 720 300'/%3E%3Cpolygon fill='%23AAA' points='990 450 900 600 1080 600'/%3E%3Cpolygon fill='%23444' points='990 450 1080 300 900 300'/%3E%3Cpolygon fill='%23222' points='90 750 0 900 180 900'/%3E%3Cpolygon points='270 750 180 900 360 900'/%3E%3Cpolygon fill='%23DDD' points='270 750 360 600 180 600'/%3E%3Cpolygon points='450 750 540 600 360 600'/%3E%3Cpolygon points='630 750 540 900 720 900'/%3E%3Cpolygon fill='%23444' points='630 750 720 600 540 600'/%3E%3Cpolygon fill='%23AAA' points='810 750 720 900 900 900'/%3E%3Cpolygon fill='%23666' points='810 750 900 600 720 600'/%3E%3Cpolygon fill='%23999' points='990 750 900 900 1080 900'/%3E%3Cpolygon fill='%23999' points='180 0 90 150 270 150'/%3E%3Cpolygon fill='%23444' points='360 0 270 150 450 150'/%3E%3Cpolygon fill='%23FFF' points='540 0 450 150 630 150'/%3E%3Cpolygon points='900 0 810 150 990 150'/%3E%3Cpolygon fill='%23222' points='0 300 -90 450 90 450'/%3E%3Cpolygon fill='%23FFF' points='0 300 90 150 -90 150'/%3E%3Cpolygon fill='%23FFF' points='180 300 90 450 270 450'/%3E%3Cpolygon fill='%23666' points='180 300 270 150 90 150'/%3E%3Cpolygon fill='%23222' points='360 300 270 450 450 450'/%3E%3Cpolygon fill='%23FFF' points='360 300 450 150 270 150'/%3E%3Cpolygon fill='%23444' points='540 300 450 450 630 450'/%3E%3Cpolygon fill='%23222' points='540 300 630 150 450 150'/%3E%3Cpolygon fill='%23AAA' points='720 300 630 450 810 450'/%3E%3Cpolygon fill='%23666' points='720 300 810 150 630 150'/%3E%3Cpolygon fill='%23FFF' points='900 300 810 450 990 450'/%3E%3Cpolygon fill='%23999' points='900 300 990 150 810 150'/%3E%3Cpolygon points='0 600 -90 750 90 750'/%3E%3Cpolygon fill='%23666' points='0 600 90 450 -90 450'/%3E%3Cpolygon fill='%23AAA' points='180 600 90 750 270 750'/%3E%3Cpolygon fill='%23444' points='180 600 270 450 90 450'/%3E%3Cpolygon fill='%23444' points='360 600 270 750 450 750'/%3E%3Cpolygon fill='%23999' points='360 600 450 450 270 450'/%3E%3Cpolygon fill='%23666' points='540 600 630 450 450 450'/%3E%3Cpolygon fill='%23222' points='720 600 630 750 810 750'/%3E%3Cpolygon fill='%23FFF' points='900 600 810 750 990 750'/%3E%3Cpolygon fill='%23222' points='900 600 990 450 810 450'/%3E%3Cpolygon fill='%23DDD' points='0 900 90 750 -90 750'/%3E%3Cpolygon fill='%23444' points='180 900 270 750 90 750'/%3E%3Cpolygon fill='%23FFF' points='360 900 450 750 270 750'/%3E%3Cpolygon fill='%23AAA' points='540 900 630 750 450 750'/%3E%3Cpolygon fill='%23FFF' points='720 900 810 750 630 750'/%3E%3Cpolygon fill='%23222' points='900 900 990 750 810 750'/%3E%3Cpolygon fill='%23222' points='1080 300 990 450 1170 450'/%3E%3Cpolygon fill='%23FFF' points='1080 300 1170 150 990 150'/%3E%3Cpolygon points='1080 600 990 750 1170 750'/%3E%3Cpolygon fill='%23666' points='1080 600 1170 450 990 450'/%3E%3Cpolygon fill='%23DDD' points='1080 900 1170 750 990 750'/%3E%3C/g%3E%3C/pattern%3E%3C/defs%3E%3Crect x='0' y='0' fill='url(%23a)' width='100%25' height='100%25'/%3E%3Crect x='0' y='0' fill='url(%23b)' width='100%25' height='100%25'/%3E%3C/svg%3E");
+    border-radius: 0;
+    background-attachment: fixed
+}
+
+.footer-para {
+    text-align: center;
+    padding: 1.5rem
+}
+
+.hide {
+    display: none;
+    position: absolute;
+    top: 53px;
+    background: #fff;
+    border-radius: 2rem;
+    padding: 1px 20px;
+    font-size: .8rem;
+    color: #a8cf45;
+    text-shadow: 0 0 #a8cf45;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite
+}
+
+.hide::before {
+    content: '';
+    position: absolute;
+    left: 34px;
+    top: -22px;
+    border-top: 11px solid #fff;
+    border-left: 11px solid transparent;
+    border-right: 11px solid transparent;
+    border-bottom: 11px solid transparent;
+    transform: rotate(-179deg)
+}
+
+.expo-row {
+    position: relative;
+    margin-top: 4rem
+}
+
+.youtube,
+:hover+.hide {
+    display: block;
+    top: 53px;
+    cursor: pointer;
+    animation-name: bounce;
+    -moz-animation-name: bounce
+}
+
+@keyframes bounce {
+
+    0%,
+    100%,
+    20%,
+    50%,
+    80% {
+        -webkit-transform: translateY(0);
+        -ms-transform: translateY(0);
+        transform: translateY(0)
+    }
+
+    40% {
+        -webkit-transform: translateY(-30px);
+        -ms-transform: translateY(-30px);
+        transform: translateY(-30px)
+    }
+
+    60% {
+        -webkit-transform: translateY(-15px);
+        -ms-transform: translateY(-15px);
+        transform: translateY(-15px)
+    }
+}
+
+.expo-row::before {
+    content: '';
+    position: absolute;
+    left: 44px;
+    top: 94px;
+    border-top: 29px solid #fff;
+    border-left: 29px solid transparent;
+    border-right: 29px solid transparent;
+    border-bottom: 29px solid transparent
+}
+
+.expo-foot {
+    position: relative;
+    top: -1rem;
+    box-shadow: rgba(0, 0, 0, .15) 0 5px 15px 0
+}
+
+.social_iconslist {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center
+}
+
+.social_iconslist li a {
+    width: 43px;
+    height: 43px;
+    background-color: #fff;
+    text-align: center;
+    line-height: 46px;
+    font-size: 10px;
+    margin: 0 10px;
+    display: block;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+    border: 3px solid #fff;
+    z-index: 1
+}
+
+.social_iconslist li a .sicons {
+    position: relative;
+    transition: .5s;
+    z-index: 3
+}
+
+.social_iconslist li a:hover .sicons {
+    color: #fff;
+    transform: rotateY(360deg)
+}
+
+.social_iconslist li a:before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: red;
+    transition: .5s;
+    z-index: 2
+}
+
+.social_iconslist li a:hover:before {
+    top: 0
+}
+
+.social_iconslist li:first-child a:before {
+    background: #cd201f
+}
+
+.social_iconslist li:nth-child(2) a:before {
+    background: #3b5998
+}
+
+.social_iconslist li:nth-child(3) a:before {
+    background: linear-gradient(#feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5)
+}
+
+.social_iconslist li:nth-child(4) a:before {
+    background: #000
+}
+
+.social_iconslist li:nth-child(5) a:before {
+    background: #0072b1
+}
+
+.social_iconslist li:nth-child(6) a:before {
+    background: #e60023
+}
+
+.social_iconslist li:nth-child(7) a:before {
+    background: #021a35
+}
+
+
+
+
+.universe-1 video {
+    position: relative;
+    z-index: 0;
+    /* height: 138vh; */
+    background-attachment: fixed;
+    width: 100%;
+
+}
+
+.overlay {
+    position: relative;
+}
+
+.overlay {
+
+    background: #A8CF45;
+
+    backdrop-filter: blur(5px);
+    width: 100%;
+}
+
+.universe-list {
+    color: #fff;
+    margin: 0 53px;
+}
+
+.universe-list a {
+    color: #fff;
+    text-shadow: 0 0 #fff;
+    font-size: 1.2rem;
+}
+
+.universe-item {
+    display: flex;
+    text-align: center;
+    padding: 18px 0;
+    justify-content: center;
+
+}
