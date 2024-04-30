@@ -1,0 +1,226 @@
+
+.contact-1{
+    background:linear-gradient(rgba(225,225,255,0.1),rgb(225 225 225 / 7%)),url(../Components/Images/contactback.png) no-repeat top center/cover;
+  }
+  
+  .glassy{
+    /* From https://css.glass */
+  background: rgba(202, 247, 121, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  margin-top: 20%;
+  text-align: center;
+  margin-bottom: 4rem;
+  }
+  .contact_head{
+    font-size: 3rem;
+    margin-top: 4rem;
+    color: #fff;
+  }
+  .contact_para{
+    font-size: 2rem;
+    margin: 2rem 0;
+    color: #fff ;
+  }
+  .contact_head img{
+    position: absolute;
+    left: -4px;
+    top: -73px;
+  
+  }
+  
+  
+  .contactcards{
+    display: grid;
+      grid-template-columns: 365px 286px;
+  }
+  .carddds{
+    height: 233px !important;
+    width: 358px !important ;
+    border-radius: 1rem;
+    margin-bottom: -1rem
+  }
+  .uscontact{
+    
+    padding:69px 21px !important;
+    text-align: start !important;
+    
+  }
+  .contct_para{
+    position: relative;
+    z-index: 2;
+    color: #fff;
+    font-size: 1.3rem;
+    margin-top: 1rem;
+    letter-spacing: 3px;
+  }
+  .contacticon{
+    color: #fff;
+    margin: 7px 6px;
+  }
+  
+  .Contact_links a{
+    color: #fff;
+   
+  }
+  
+  
+  .contact_card{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 350px;
+    height: 300px;
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0 35px 80px rgba(0,0,0,0.15);
+    margin: 20px;
+    transition: 0.5s;
+  }
+  
+  .contact_flex{
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    column-gap: 197px;
+  }
+  .contact_card:hover{
+  height: 365px;
+  }
+  .contact_card .imgbx{
+    position: absolute;
+    width: 300px;
+    height: 220px;
+    background:#A8CF45;
+    top: 20px;
+    border-radius: 12px;
+    transition: 0.5s;
+  }
+  .contact_card .imgbx
+  .contacticon{
+    position: absolute;
+    color: #A8CF45;
+    font-size: 3rem;
+    left: 8rem;
+    top:-2rem;
+  }
+  .card_images{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 1rem;
+  }
+  .card_para{
+    position: absolute;
+    top: 5rem;
+    left: 5rem;
+    color: #fff;
+    font-size: 26px;
+    text-shadow: 0 0 black;
+    font-weight: 600;
+    /* background: #a8cf458a; */
+    backdrop-filter: blur(33px);
+    padding: 2px 27px;
+    border-radius: 1rem;
+    /* width: 50%;
+    text-align: center; */
+  }
+  .contact_flex .contact_card:hover .imgbx{
+  
+  
+    top: -100px;
+    scale: 0.75;
+    box-shadow: 0 15px 45px rgba(0,0,0,0.3);
+  }
+  
+  .contact_flex .contact_card .contact_content{
+    position: absolute;
+    width: 100%;
+    padding: 0 30px;
+    top: 252px;
+    height: 25px;
+    overflow: hidden;
+    transition: 0.5s;
+  }
+  .contact_flex .contact_card:hover .contact_content{
+    height: 250px;
+    top: 130px;
+  }
+   .contact-lists .contacticonss{
+    color: #A8CF45;
+    margin: 7px 0;
+  
+  }
+  
+  .contact-lists a{
+    color: #000;
+    font-weight: 500;
+    font-size: 1rem;
+    padding: 10px 10px;
+  }
+  
+  
+  .contact-lists{
+    text-indent: -14px;
+    margin-left: 28px;
+  
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  .mfp-arrow-right {
+    left: 100%;
+    transform: translateX(-100%);
+  }
+  
+  
+  .serviceBox{
+    color: #fff;
+    background: linear-gradient(#D0D50F,#7FCE11);
+    font-family: 'Maven Pro', sans-serif;
+    text-align: center;
+    padding: 20px;
+    border-radius: 40px;
+    margin: 0 10px;
+  }
+  .serviceBox .service-icon{
+    /* font-size: 50px;
+    line-height: 80px;
+    width: 80px;
+    height: 80px; */
+    margin: 0 auto 20px;
+    /* border-radius: 20px; */
+    /* box-shadow: 0 0 5px rgba(0,0,0,0.2); */
+  }
+  .serviceBox .title{
+    color: #7FCE11;
+    background-color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 10px 0;
+    margin: 0 -20px 15px;
+  }
+  .serviceBox .description{
+    font-size: 15px;
+    line-height: 22px;
+    margin: 0;
+  }
+  .serviceBox.green{ background: linear-gradient(#109492,#008A65); }
+  .serviceBox.green .title{ color: #008A65; }
+  .serviceBox.blue{ background: linear-gradient(#1f96ba, #27436d); }
+  .serviceBox.blue .title{ color: #27436d; }
+  .serviceBox.purple{ background: linear-gradient(#c4276b, #473a82); }
+  .serviceBox.purple .title{ color: #3A2885; }
+  @media only screen and (max-width: 990px){
+    .serviceBox{ margin: 0 0 30px; }
+  }
+  
