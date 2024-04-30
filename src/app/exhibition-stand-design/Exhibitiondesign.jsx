@@ -27,7 +27,7 @@ import Exp from '@/Components/Images/experts.webp';
 import Views from '@/Components/Images/3Dview.webp';
 import Feed from '@/Components/Images/Feedback.webp';
 import Build from '@/Components/Images/Buildinstall.webp';
-import Comp from '@/Components/Images/Company.webp';
+import Comp from '@/Components/Images/company.webp';
 import Store from '@/Components/Images/Storage.webp';
 import DesignAcordian from "@/Components/DesignAcordian";
 import Stickform from "@/Components/stickform";
