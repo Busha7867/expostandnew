@@ -1,0 +1,502 @@
+
+.gervideo{width: 100%;}
+.glassEffect{
+  background: rgb(255 255 255 / 0%);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    /* border: 1px solid rgba(255, 255, 255, 0.3); */
+    text-align: center;
+   
+    
+    margin-top: 22%;
+    margin-bottom: 11rem;
+    margin-left: auto;
+    padding: 10px;
+   
+ 
+    
+
+}
+p{line-height: 24px;}
+.glass_headinggermany{
+  margin: 8% 0;
+  color: #fff;
+  font-size: 4rem;
+}
+
+.germany-1{
+    background: linear-gradient(rgb(0 0 0 / 50%),rgb(0 0 0 / 53%)),url(../Components/image/germany.webp) no-repeat center/cover;
+}
+.germany-2 .showheading{
+  font-size: 28px;
+}
+.abudhabi{background:linear-gradient(rgb(0 0 0 / 50%),rgb(0 0 0 / 53%)), url(../Components/Images/abudhabi.webp) no-repeat center/cover;}
+.Dubai{
+    background: linear-gradient(rgb(0 0 0 / 50%),rgb(0 0 0 / 53%)),url(../Components/image/dubai.webp) no-repeat center/cover;
+}
+/* .germany{background: linear-gradient(rgb(0 0 0 / 50%),rgb(0 0 0 / 53%)), url(../GlobalPresense/germany.jpg) no-repeat center/cover;} */
+.uk-1{background: linear-gradient(rgb(0 0 0 / 50%),rgb(0 0 0 / 53%)),url(../Components/image/uk.webp) no-repeat center/cover;}
+.Netherland{background: linear-gradient(rgb(0 0 0 / 50%),rgb(0 0 0 / 53%)),url(../Components/image/Netherland.webp) no-repeat center/cover;}
+.France{background: linear-gradient(rgb(0 0 0 / 50%),rgb(0 0 0 / 53%)),url(../Components/image/france.webp) no-repeat center/cover;}
+.Spain{background: linear-gradient(rgb(0 0 0 / 50%),rgb(0 0 0 / 53%)),url(../Components/image/spain.webp) no-repeat center/cover;}
+.italy-1{background: linear-gradient(rgb(0 0 0 / 50%),rgb(0 0 0 / 53%)),url(../Components/image/italy.webp) no-repeat center/cover;}
+.china{background: linear-gradient(rgb(0 0 0 / 50%),rgb(0 0 0 / 53%)),url(../Components/image/china.webp) no-repeat center/cover;}
+.switz{background: linear-gradient(rgb(0 0 0 / 50%),rgb(0 0 0 / 53%)),url(../Components/image/Switz.webp) no-repeat center/cover;}
+.india{background: linear-gradient(rgb(0 0 0 / 50%),rgb(0 0 0 / 53%)),url(../Components/image/india.webp) no-repeat center/cover;}
+
+.thailand-1{background: linear-gradient(rgb(0 0 0 / 50%),rgb(0 0 0 / 53%)),url(../Components/image/thailand.webp) no-repeat center/cover;}
+
+.capetown-1{background: url(../Components/majorcities/CapeTown.jpg) no-repeat  center / cover;}
+.madrid-1{background: url(../Components/majorcities/Madrid.jpg) no-repeat center / cover;}
+.amsterdam-1{background: linear-gradient(rgb(0 0 0 / 50%),rgb(0 0 0 / 53%)),url(../Components/majorcities/Amsterdam.jpg) no-repeat center / cover;}
+.barcelona-1{background:linear-gradient(rgb(0 0 0 / 50%),rgb(0 0 0 / 53%)), url(../Components/majorcities/Barcelona.jpg) no-repeat center / cover;}
+.bangkok-1{background:linear-gradient(rgb(0 0 0 / 50%),rgb(0 0 0 / 53%)), url(../Components/majorcities/bangkok.jpg) no-repeat center / cover;}
+.beijing-1{background:linear-gradient(rgb(0 0 0 / 50%),rgb(0 0 0 / 53%)), url(../Components/majorcities/Beijing.jpeg)  no-repeat center / cover;}
+.berlin-1{background:linear-gradient(rgb(0 0 0 / 50%),rgb(0 0 0 / 53%)), url(../Components/majorcities/Berlin.jpg)  no-repeat center / cover;}
+.bern-1{background: linear-gradient(rgb(0 0 0 / 50%),rgb(0 0 0 / 53%)),url(../Components/majorcities/Bern.jpg)  no-repeat center / cover;}
+.boston-1{background: linear-gradient(rgb(0 0 0 / 50%),rgb(0 0 0 / 53%)),url(../Components/majorcities/Boston.jpg)  no-repeat center / cover;}
+.bolgana-1{background: linear-gradient(rgb(0 0 0 / 50%),rgb(0 0 0 / 53%)),url(../Components/majorcities/bolgana.jpg)  no-repeat center / cover;}
+.birmingham-1{background:linear-gradient(rgb(0 0 0 / 50%),rgb(0 0 0 / 53%)), url(../Components/majorcities/birmingham.jpg)  no-repeat center / cover;}
+.basel-1{background:linear-gradient(rgb(0 0 0 / 50%),rgb(0 0 0 / 53%)), url(../Components/majorcities/basel.jpg)  no-repeat center / cover;}
+.brussels-1{background:linear-gradient(rgb(0 0 0 / 50%),rgb(0 0 0 / 53%)), url(../Components/majorcities/brussels.jpg)  no-repeat center / cover;}
+.cannes-1{background:linear-gradient(rgb(0 0 0 / 50%),rgb(0 0 0 / 53%)), url(../Components/majorcities/Cannes.jpg)  no-repeat center / cover;}
+.copenhagen-1{background: linear-gradient(rgb(0 0 0 / 50%),rgb(0 0 0 / 53%)),url(../Components/majorcities/Copenhagen.jpg)  no-repeat center/ cover;}
+.cologne-1{background:linear-gradient(rgb(0 0 0 / 50%),rgb(0 0 0 / 53%)), url(../Components/majorcities/Cologne.webp)  no-repeat center/ cover;}
+.dortmund-1{background:linear-gradient(rgb(0 0 0 / 50%),rgb(0 0 0 / 53%)), url(../Components/majorcities/dortmund.jpg)  no-repeat center/ cover;}
+.dusseldorf-1{background: linear-gradient(rgb(0 0 0 / 50%),rgb(0 0 0 / 53%)),url(../Components/majorcities/Dusseldorf.jpg)  no-repeat center/ cover;}
+.essen-1{background: linear-gradient(rgb(0 0 0 / 50%),rgb(0 0 0 / 53%)),url(../Components/majorcities/essen.jpg)  no-repeat center/ cover;}
+.frankfurt-1{background: linear-gradient(rgb(0 0 0 / 50%),rgb(0 0 0 / 53%)),url(../Components/majorcities/frankfurt.jpg)  no-repeat center/ cover;}
+.geneva-1{background:linear-gradient(rgb(0 0 0 / 50%),rgb(0 0 0 / 53%)), url(../Components/majorcities/geneva.jpg)  no-repeat center/ cover;}
+.hamburg-1{background: linear-gradient(rgb(0 0 0 / 50%),rgb(0 0 0 / 53%)),url(../Components/majorcities/Hamburg.jpg)  no-repeat center/ cover;}
+.hannover-1{background: linear-gradient(rgb(0 0 0 / 50%),rgb(0 0 0 / 53%)),url(../Components/majorcities/hannover.jpg)  no-repeat center/ cover;}
+.istanbul-1{background: linear-gradient(rgb(0 0 0 / 50%),rgb(0 0 0 / 53%)),url(../Components/majorcities/Istanbul.jpg)  no-repeat center/ cover;}
+.johanburg-1{background:linear-gradient(rgb(0 0 0 / 50%),rgb(0 0 0 / 53%)), url(../Components/majorcities/johannesburg.jpg)  no-repeat center/ cover;}
+.leipzig-1{background: linear-gradient(rgb(0 0 0 / 50%),rgb(0 0 0 / 53%)),url(../Components/majorcities/Liepzig.jpg)  no-repeat center/ cover;}
+.london-1{background:linear-gradient(rgb(0 0 0 / 50%),rgb(0 0 0 / 53%)), url(../Components/majorcities/uk.jpg)  no-repeat center/ cover;}
+.lyon-1{background: linear-gradient(rgb(0 0 0 / 50%),rgb(0 0 0 / 53%)),url(../Components/majorcities/Lyon.jpg)  no-repeat center/ cover;}
+.miami-1{background: linear-gradient(rgb(0 0 0 / 50%),rgb(0 0 0 / 53%)),url(../Components/majorcities/Miami.jpg)  no-repeat center/ cover;}
+.milan-1{background:linear-gradient(rgb(0 0 0 / 50%),rgb(0 0 0 / 53%)), url(../Components/majorcities/milan.jpg)  no-repeat center/ cover;}
+.newyork-1{background:linear-gradient(rgb(0 0 0 / 50%),rgb(0 0 0 / 53%)), url(../Components/majorcities/newyork.jpg)  no-repeat center/ cover;}
+.nuremberg-1{background:linear-gradient(rgb(0 0 0 / 50%),rgb(0 0 0 / 53%)), url(../Components/majorcities/Nuernberg.jpg)  no-repeat center/ cover;}
+.paris-1{background:linear-gradient(rgb(0 0 0 / 50%),rgb(0 0 0 / 53%)), url(../Components/majorcities/Paris.jpg)  no-repeat center/ cover;}
+.poznan-1{background:linear-gradient(rgb(0 0 0 / 50%),rgb(0 0 0 / 53%)), url(../Components/majorcities/poznan.jpg)  no-repeat center/ cover;}
+.rotterdam-1{background:linear-gradient(rgb(0 0 0 / 50%),rgb(0 0 0 / 53%)), url(../Components/majorcities/ratter.jpeg)  no-repeat center/ cover;}
+.sau-1{background:linear-gradient(rgb(0 0 0 / 50%),rgb(0 0 0 / 53%)), url(../Components/majorcities/sau.jpg)  no-repeat center/ cover;}
+.satters-1{background:linear-gradient(rgb(0 0 0 / 50%),rgb(0 0 0 / 53%)), url(../Components/majorcities/satte.jpg)  no-repeat center/ cover;}
+.shanghai-1{background: linear-gradient(rgb(0 0 0 / 50%),rgb(0 0 0 / 53%)),url(../Components/majorcities/Shanghai.jpg)  no-repeat center/ cover;}
+.stutt-1{background:linear-gradient(rgb(0 0 0 / 50%),rgb(0 0 0 / 53%)), url(../Components/majorcities/Stutt.jpg)  no-repeat center/ cover;}
+.utrecht-1{background: url(../Components/majorcities/utrecht.jpg)  no-repeat center/ cover;}
+.verona-1{background: linear-gradient(rgb(0 0 0 / 50%),rgb(0 0 0 / 53%)),url(../Components/majorcities/Verona.jpg)  no-repeat center/ cover;}
+.vienna-1{background:linear-gradient(rgb(0 0 0 / 50%),rgb(0 0 0 / 53%)), url(../Components/majorcities/Vienna.jpeg)  no-repeat center/ cover;}
+.warsaw-1{background: linear-gradient(rgb(0 0 0 / 50%),rgb(0 0 0 / 53%)),url(../Components/majorcities/Waraw.jpg)  no-repeat center/ cover;}
+.munich-1{background:linear-gradient(rgb(0 0 0 / 50%),rgb(0 0 0 / 53%)), url(../Components/majorcities/munich.jpg)  no-repeat center/ cover;}
+
+
+.germany_head{
+    margin-top: 1rem ;
+    color: #A8cf45;
+    font-size: 2rem;
+    text-align: center;
+}
+.germany-2{
+    /* background: linear-gradient(rgb(255 255 255 / 48%), rgb(255 255 255)), url(../pages2/3dback.webp) no-repeat center; */
+  /* background-attachment: fixed; */
+  height: 100vh;
+}
+.german_para{
+    color: #565656;
+    font-size: 1.3rem;
+    margin-top: 2rem;
+    padding: 0 9px;
+    margin-bottom: 1rem;
+
+}
+.standheading{color: #A8CF45; font-weight: 500; font-size: 17px; margin: 10px 0; }
+.cities_box{
+    background: url(../Components/Images/majorback.jpg) no-repeat top center/cover;
+    -webkit-animation: slidein 100s;
+  animation: slidein 100s;
+
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate;
+  border: 4px solid #A8cf45;
+  border-radius: 1rem;
+  width: 348px;
+  margin: 2rem 59px;
+}
+@keyframes slidein {
+    from {
+      background-position: top;
+      background-size: 2679px;
+    }
+  
+    to {
+      background-position: -100px 0px;
+      background-size: 2143px;
+    }
+  
+  }
+  .cities{
+    background: rgb(255 255 255 / 0%);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+
+  }
+  
+.cities_links{
+    display: grid;
+    grid-template-columns: 170px 170px;
+    
+   
+}
+.cities_hd{
+    text-align: center;
+    margin-top: 1rem;
+    color: #565656;
+    font-size: 1.1rem;
+
+}
+.cities_item{
+    /* border: 1px solid red; */
+    /* width: 109px; */
+    text-align: center;
+    padding: 1rem 0;
+    border-radius: 0;
+border-color: #ccc;
+border-width: 0 0 2px 0;
+border-style: none none solid none;
+font-size: 1rem;
+color: #A8cf45;
+
+
+}
+.germanform{
+    background: transparent;
+}
+.germanreg_head{
+    text-align: center;
+    color: #fff;
+    padding-top: 14px;
+}
+.ginput .icon{
+    top: 12px;
+}
+.ginput input{
+  
+    padding: 12px 11px;
+    background: transparent;
+    border-bottom: 1px solid #A8cf45;
+    border-top: transparent;
+    border-right: transparent;
+    border-left: transparent;
+    margin: 8px 0;
+
+}
+.ginput input:focus{
+    border: none;
+}
+.ginput input::placeholder{
+    color: #fff;
+    padding-left: 1rem;
+}
+.germanbtn{
+
+    padding: 0.8rem 3rem;
+    position: relative;
+    left: 0rem;
+
+}
+.sideform{
+    display: block;
+    background: rgb(255 255 255 / 0%);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    width: 300px;
+    margin: 0 -22px;
+    padding: 10px;
+}
+
+.germanregister{
+    display: block;
+    background: url(../Components/majorcities/Switzerland.jpg) no-repeat top center/cover;
+    border-radius: 1rem;
+    padding: 0px 3rem;
+    text-align: center;
+    width: 348px;
+    margin: 1rem 4rem;
+}
+.germanregister .Stickbtn{
+  margin: 0 -3px !important;
+}
+#textger{
+    margin-top: 3px;
+}
+.customside{
+    margin-bottom: 1rem;
+    width: 52%;
+}
+.request_quote{
+    display: flex;
+    background-color: #A8CF45;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25'%3E%3Cdefs%3E%3ClinearGradient id='a' gradientUnits='userSpaceOnUse' x1='0' x2='0' y1='0' y2='100%25' gradientTransform='rotate(181,683,328)'%3E%3Cstop offset='0' stop-color='%23A8CF45'/%3E%3Cstop offset='1' stop-color='%23A8CF45'/%3E%3C/linearGradient%3E%3Cpattern patternUnits='userSpaceOnUse' id='b' width='1585' height='1320.8' x='0' y='0' viewBox='0 0 1080 900'%3E%3Cg fill-opacity='0.05'%3E%3Cpolygon fill='%23444' points='90 150 0 300 180 300'/%3E%3Cpolygon points='90 150 180 0 0 0'/%3E%3Cpolygon fill='%23AAA' points='270 150 360 0 180 0'/%3E%3Cpolygon fill='%23DDD' points='450 150 360 300 540 300'/%3E%3Cpolygon fill='%23999' points='450 150 540 0 360 0'/%3E%3Cpolygon points='630 150 540 300 720 300'/%3E%3Cpolygon fill='%23DDD' points='630 150 720 0 540 0'/%3E%3Cpolygon fill='%23444' points='810 150 720 300 900 300'/%3E%3Cpolygon fill='%23FFF' points='810 150 900 0 720 0'/%3E%3Cpolygon fill='%23DDD' points='990 150 900 300 1080 300'/%3E%3Cpolygon fill='%23444' points='990 150 1080 0 900 0'/%3E%3Cpolygon fill='%23DDD' points='90 450 0 600 180 600'/%3E%3Cpolygon points='90 450 180 300 0 300'/%3E%3Cpolygon fill='%23666' points='270 450 180 600 360 600'/%3E%3Cpolygon fill='%23AAA' points='270 450 360 300 180 300'/%3E%3Cpolygon fill='%23DDD' points='450 450 360 600 540 600'/%3E%3Cpolygon fill='%23999' points='450 450 540 300 360 300'/%3E%3Cpolygon fill='%23999' points='630 450 540 600 720 600'/%3E%3Cpolygon fill='%23FFF' points='630 450 720 300 540 300'/%3E%3Cpolygon points='810 450 720 600 900 600'/%3E%3Cpolygon fill='%23DDD' points='810 450 900 300 720 300'/%3E%3Cpolygon fill='%23AAA' points='990 450 900 600 1080 600'/%3E%3Cpolygon fill='%23444' points='990 450 1080 300 900 300'/%3E%3Cpolygon fill='%23222' points='90 750 0 900 180 900'/%3E%3Cpolygon points='270 750 180 900 360 900'/%3E%3Cpolygon fill='%23DDD' points='270 750 360 600 180 600'/%3E%3Cpolygon points='450 750 540 600 360 600'/%3E%3Cpolygon points='630 750 540 900 720 900'/%3E%3Cpolygon fill='%23444' points='630 750 720 600 540 600'/%3E%3Cpolygon fill='%23AAA' points='810 750 720 900 900 900'/%3E%3Cpolygon fill='%23666' points='810 750 900 600 720 600'/%3E%3Cpolygon fill='%23999' points='990 750 900 900 1080 900'/%3E%3Cpolygon fill='%23999' points='180 0 90 150 270 150'/%3E%3Cpolygon fill='%23444' points='360 0 270 150 450 150'/%3E%3Cpolygon fill='%23FFF' points='540 0 450 150 630 150'/%3E%3Cpolygon points='900 0 810 150 990 150'/%3E%3Cpolygon fill='%23222' points='0 300 -90 450 90 450'/%3E%3Cpolygon fill='%23FFF' points='0 300 90 150 -90 150'/%3E%3Cpolygon fill='%23FFF' points='180 300 90 450 270 450'/%3E%3Cpolygon fill='%23666' points='180 300 270 150 90 150'/%3E%3Cpolygon fill='%23222' points='360 300 270 450 450 450'/%3E%3Cpolygon fill='%23FFF' points='360 300 450 150 270 150'/%3E%3Cpolygon fill='%23444' points='540 300 450 450 630 450'/%3E%3Cpolygon fill='%23222' points='540 300 630 150 450 150'/%3E%3Cpolygon fill='%23AAA' points='720 300 630 450 810 450'/%3E%3Cpolygon fill='%23666' points='720 300 810 150 630 150'/%3E%3Cpolygon fill='%23FFF' points='900 300 810 450 990 450'/%3E%3Cpolygon fill='%23999' points='900 300 990 150 810 150'/%3E%3Cpolygon points='0 600 -90 750 90 750'/%3E%3Cpolygon fill='%23666' points='0 600 90 450 -90 450'/%3E%3Cpolygon fill='%23AAA' points='180 600 90 750 270 750'/%3E%3Cpolygon fill='%23444' points='180 600 270 450 90 450'/%3E%3Cpolygon fill='%23444' points='360 600 270 750 450 750'/%3E%3Cpolygon fill='%23999' points='360 600 450 450 270 450'/%3E%3Cpolygon fill='%23666' points='540 600 630 450 450 450'/%3E%3Cpolygon fill='%23222' points='720 600 630 750 810 750'/%3E%3Cpolygon fill='%23FFF' points='900 600 810 750 990 750'/%3E%3Cpolygon fill='%23222' points='900 600 990 450 810 450'/%3E%3Cpolygon fill='%23DDD' points='0 900 90 750 -90 750'/%3E%3Cpolygon fill='%23444' points='180 900 270 750 90 750'/%3E%3Cpolygon fill='%23FFF' points='360 900 450 750 270 750'/%3E%3Cpolygon fill='%23AAA' points='540 900 630 750 450 750'/%3E%3Cpolygon fill='%23FFF' points='720 900 810 750 630 750'/%3E%3Cpolygon fill='%23222' points='900 900 990 750 810 750'/%3E%3Cpolygon fill='%23222' points='1080 300 990 450 1170 450'/%3E%3Cpolygon fill='%23FFF' points='1080 300 1170 150 990 150'/%3E%3Cpolygon points='1080 600 990 750 1170 750'/%3E%3Cpolygon fill='%23666' points='1080 600 1170 450 990 450'/%3E%3Cpolygon fill='%23DDD' points='1080 900 1170 750 990 750'/%3E%3C/g%3E%3C/pattern%3E%3C/defs%3E%3Crect x='0' y='0' fill='url(%23a)' width='100%25' height='100%25'/%3E%3Crect x='0' y='0' fill='url(%23b)' width='100%25' height='100%25'/%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    margin-bottom: 1rem;
+    
+ 
+}
+.rqpara-1{
+    background: #fff;
+    margin: 16px  0rem;
+    height: 46px;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #A8CF45;
+    font-weight: 500;
+    font-size: 1.2rem;
+    
+
+}
+
+.rqpara-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    margin: 0 9px;
+    font-size: 1rem;
+}
+
+.cta {
+    position: relative;
+    margin: auto;
+    padding: 11px 0px;
+    transition: all 0.2s ease;
+  }
+  .cta:before {
+    content: "";
+    position: absolute;
+    top: -4px;
+    left: -15px;
+    display: block;
+    border-radius: 28px;
+    background: rgba(226, 225, 225, 0.502);
+    width: 56px;
+    height: 56px;
+    transition: all 0.3s ease;
+  }
+  .cta span {
+    position: relative;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 500;
+   
+    text-transform: uppercase;
+    vertical-align: middle;
+    z-index: 1;
+    color: #fff;
+  }
+  .cta svg {
+    position: relative;
+    top: 0;
+    margin-left: 10px;
+    fill: none;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke: #111;
+    stroke-width: 2;
+    transform: translateX(-5px);
+    transition: all 0.3s ease;
+  }
+  .cta:hover:before {
+    width: 100%;
+    background: #565656;
+  }
+  .cta:hover svg {
+    transform: translateX(0);
+  }
+  .cta:active {
+    transform: scale(0.96);
+  }
+  .german_card{
+
+    position: relative;
+    width: 276px;
+    height: 400px;
+    margin: 30px;
+    background: #A8CF45;
+    
+    box-shadow: 0 4px 0 #565656, inset 0 -22px 0 rgba(255,255,255,0.25), 0 11px 0 rgba(0,0,0,0.15);
+    overflow: hidden; 
+  }
+  .thaicards{grid-template-columns: 286px 286px;}
+  .german_cards{
+    display: grid;
+    grid-template-columns: 286px 286px 286px;
+    margin-left: -1rem;
+  }
+  .german_content{
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    padding: 30px;
+    padding-top: 140px;
+    text-align: center;
+  }
+  .german_content h4{
+    font-size: 1.2em;
+    color: #fff;
+    margin-bottom: 10px;
+  }
+  .german_content p{
+    color: #fff;
+    line-height: 1.5em;
+  }
+  .german_card::before{
+    content: '';
+    position: absolute;
+    top: -143px;
+    left: -165px;
+    width: 100%;
+    height: 150%;
+    background: linear-gradient(90deg,transparent,rgba(252, 252, 252, 11%));
+    transform: rotate(35deg);pointer-events: none;
+    backdrop-filter: blur(5px);
+  }
+  .german_card{
+    background: linear-gradient(to bottom,#A8CF45,#A8CF45);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  
+
+  }
+  .card2{
+    background: linear-gradient(to bottom,#57667e,#a2a795);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .germancard2{
+    background: linear-gradient(to bottom,#ffec61,#f321d7);
+    overflow: hidden;
+
+  }
+  .germancard3{
+    background: linear-gradient(to bottom,#24ff72,#9a4eff);
+    overflow: hidden;
+
+  }
+.german_icon{
+    position: relative;
+    width: 140px;
+    height: 120px;
+    background: #fff;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    box-shadow: 0 10px 0 rgba(255, 255, 255, 0.1),
+    inset 0 -8px 0 #565656;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.german_icon::before{
+  content: '';
+  position: absolute;
+  left: -50px;
+  top: 0;
+  width: 50px;
+  height: 50px;
+  background: transparent;
+  border-top-right-radius: 50px;
+  box-shadow: 15px -15px 0 15px #fff;
+}
+.german_icon::after{
+  content: '';
+  position: absolute;
+  right:-50px;
+  top: 0;
+  width: 50px;
+  height: 50px;
+  background: transparent;
+  border-top-left-radius: 50px;
+  box-shadow: -15px -15px 0 15px #fff;
+}
+.german_icon .germicons{
+  color: #57667e;
+  position: relative;
+  font-size: 3em;
+  z-index: 10000;
+  --ionicon-stroke-width: 24px;
+  width: 87px;
+}
+
+.two_quotes{
+  padding: 1rem;
+}
+
+#stickbox{
+  position: sticky;
+  top: 20px;
+  /* z-index: 999; */
+  scroll-behavior: smooth;
+
+}
+
+
+
+
+
+
+.germanpara{
+  /* background: #57667e36; */
+  border-radius: 17px 17px 0px 0px;
+}
+.german_paragraph p{
+  padding: 10px;
+}
+
+.accordion {
+  margin: 50px;
+  }
+  
+.abudhabilist li{
+  margin: 5px 0;
+}
+.dpara i{
+  color: #fff;
+  padding: 0 23px;
+}
+.germancard{
+  display: grid;
+    grid-template-columns: 300px 300px;
+    margin-left: -1rem;
+  column-gap: 108px;
+}
+.cardger{
+  width: 372px;
+  height: 326px
+
+}
+.sh2{text-align: left;}
+
+
+/* ------------------------------------------------------- */
+
