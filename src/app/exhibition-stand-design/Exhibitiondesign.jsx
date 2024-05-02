@@ -120,7 +120,7 @@ export default function StandDesign() {
                             </p>
 
 
-                            <h2 className="german_para ">Exhibition stand design<i class="fa-solid fa-turn-down"></i></h2>
+                            <h2 className="german_para ">Exhibition stand design<i className="fa-solid fa-turn-down"></i></h2>
 
 
                             <p className="intro-para3 germanpara">To create a visual and functional design for your exhibition that reflects your purpose, goals, format, and content. To create a consistent and appealing display, you should utilize design principles and elements such as colour, contrast, balance, harmony, hierarchy, placement, proportion, and repetition. It would help if you also used exhibition design techniques and tools such as sketches, wireframes, models, prototypes, and software to create a realistic and detailed representation of your exhibition.

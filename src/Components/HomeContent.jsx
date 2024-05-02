@@ -46,10 +46,7 @@ import FreshPerch from '@/Components/Logoslider/Fresh.webp';
 import Neon from '@/Components/Logoslider/neonetic.jpg';
 import ArticleBlog from '@/app/Article/ArticleBlog';
 import LogoSLider from './LogoSLider';
-import Counterup from './Counterup';
-import Mainform from './Mainform';
-import Footer from './Footer';
-import Universe from './Universe';
+
 const HomeContent = () => {
 
 
@@ -822,10 +819,7 @@ const HomeContent = () => {
 
                 </div>
             </div>
-            <Counterup />
-            <Mainform/>
-            <Footer/>
-            <Universe/>
+           
         </div>
     )
 }

@@ -3,10 +3,16 @@ import "./globals.css";
 import Navbar from "@/Components/navbar/Navbar";
 import '@/Components/Responsive.css';
 import '@/app/navbar.css';
+import '@/app/exhibitionbuilder.css';
+import '@/app/Arrounworld.css';
+import '@/app/design.css';
+import '@/app/Custom.css';
+import '@/app/germany.css';
 import Counterup from "@/Components/Counterup";
+import Mainform from "@/Components/Mainform";
 import Footer from "@/Components/Footer";
 import Universe from "@/Components/Universe";
-import Mainform from "@/Components/Mainform";
+
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -19,16 +25,16 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
-        <Navbar/>
-        
+        <Navbar />
+
         {children}
-        <Counterup/>
+        <Counterup />
         <Mainform/>
         <Footer/>
         <Universe/>
-        
-        
-        </body>
+
+
+      </body>
     </html>
   );
 }
