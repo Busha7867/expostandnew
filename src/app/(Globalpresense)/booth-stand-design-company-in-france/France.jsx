@@ -1,6 +1,7 @@
 'use client';
 
 import React from "react";
+import Link from "next/link";
 
 import Majorcitiessidelinks from "@/Components/Majorcitiessidelinks";
 import Stickform from "@/Components/stickform";
