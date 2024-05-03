@@ -30,7 +30,7 @@ import Poznan from '@/Components/majorcities/poznan.jpg';
 import Sau from '@/Components/majorcities/sau.jpg';
 import Satte from '@/Components/majorcities/satte.jpg';
 import Stutt from '@/Components/majorcities/Stutt.jpg';
-import Utrecht from '@/Components/majorcities/Utrecht.jpg';
+import Utrecht from '@/Components/majorcities/utrecht.jpg';
 
 import Beijing from '@/Components/majorcities/Beijing.jpeg';
 import Bern from '@/Components/majorcities/Bern.jpg';

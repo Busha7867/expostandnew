@@ -5,7 +5,7 @@ import Link from "next/link";
 import Delivery from '@/Components/Portimage/fastdelivery.png';
 import Peace from '@/Components/Portimage/meditation.png';
 import Promise from '@/Components/Portimage/promise.png';
-import Investment from '@/Components/Portimage/Investment.png';
+import Investment from '@/Components/Portimage/investment.png';
 import Trust from '@/Components/Portimage/friendship.png';
 import Experience from '@/Components/Portimage/experience.png';
 import Majorleftcities from "@/Components/Majorleftcities";
