@@ -1,13 +1,9 @@
+'use client';
+
 import React from "react";
-import '../pages2/germany.css';
-import { Link } from "react-router-dom";
 
-import CounterUp from "../../CounterUp";
-import Form from "../../Form";
-import Footer from "../../Footer";
-
-import StickForm from "../../StickForm";
-import { Helmet } from "react-helmet";
+import Majorcitiessidelinks from "@/Components/Majorcitiessidelinks";
+import Stickform from "@/Components/stickform";
 
 
 
@@ -21,28 +17,7 @@ const France = () => {
 
     return (
         <div className="section">
-            <Helmet>
-                <title>Exhibition Booth Design Company in France - Expo Stand Services</title>
-                <meta name="description" content="You can have the assistance of the best exhibition booth design company in France that offers affordable exhibiting services. Connect with us for the best services of exhibition booth builders in France." />
-                <meta name="keywords" content=" "></meta>
-                <link rel="canonical" href="https://www.expostandservice.com/booth-stand-design-company-in-france/" />
-                <meta property="og:locale" content="en_US" />
-                <meta property="og:type" content="article" />
-                <meta property="og:title" content="Exhibition Booth Design Company in France" />
-                <meta property="og:description" content="You can have the assistance of the best exhibition booth design company in France that offers affordable exhibiting services. Connect with us for the best services of exhibition booth builders in France." />
-                <meta property="og:url" content="https://www.expostandservice.com/booth-stand-design-company-in-france/" />
-                <meta property="og:site_name" content="Expo Stand Services Sp. z o.o." />
-                <meta property="article:publisher" content="https://www.facebook.com/expostandservice" />
-                <meta property="article:modified_time" content="2023-08-07T08:11:22+00:00" />
-                <meta property="og:image" content="https://www.expostandservice.com/wp-content/uploads/2023/03/France-min.jpg" />
-                <meta property="og:image:width" content="1200" />
-                <meta property="og:image:height" content="540" />
-                <meta property="og:image:type" content="image/jpeg" />
-                <meta name="twitter:card" content="summary_large_image" />
-                <meta name="twitter:site" content="@expostandservic" />
-                <meta name="twitter:label1" content="Est. reading time" />
-                <meta name="twitter:data1" content="6 minutes" />
-            </Helmet>
+       
             <div className="germany-1 France">
 
                 <div className="container">
@@ -138,7 +113,7 @@ const France = () => {
                                 </p>
 
 
-                                <Link class="cta" to="/contact-us/">
+                                <Link class="cta" href="/contact-us/">
                                     <span>Request a Quote</span>
                                     <svg width="13px" height="10px" viewBox="0 0 13 10">
                                         <path d="M1,5 L11,5"></path>
@@ -155,7 +130,7 @@ const France = () => {
                                     <br />
                                     <br />
 
-                                    Whatever your goal is to participate in France’s major trade fairs, we offer comprehensive support. Choose the most <Link to="/exhibition-stand-builder/"> exhibition stand builders </Link>in France and ensure your next exhibition is a success.
+                                    Whatever your goal is to participate in France’s major trade fairs, we offer comprehensive support. Choose the most <Link href="/exhibition-stand-builder/"> exhibition stand builders </Link>in France and ensure your next exhibition is a success.
 
 
 
@@ -188,37 +163,14 @@ const France = () => {
 
                         </div>
                         <div className="col-4 col-m-12 col-t-12 col-d-12">
-                            <div className="cities_box" >
-                                <div className="cities">
-                                    <div className="cities_head">
-                                        <h4 className="cities_hd">MAJOR EXHIBITING COUNTRY</h4>
-                                    </div>
-                                    <div className="cities_links">
-                                        <Link to='/exhibition-stand-contractor-in-uk/' className="cities_item">UK</Link>
-                                        <Link to='/exhibition-stand-designs-in-germany/' className="cities_item">Germany</Link>
-                                        <Link to='/exhibition-stand-design-in-netherlands/' className="cities_item">Netherlands</Link>
-                                        <Link to='https://www.expostandservice.us/trade-show-booth-design/' className="cities_item">USA</Link>
-                                        <Link to='/exhibition-stand-contractor-in-dubai/' className="cities_item">UAE</Link>
-                                        <Link to='/exhibition-design-company-in-switzerland/' className="cities_item">Switzerland</Link>
-                                        <Link to='/exhibition-design-company-in-spain/' className="cities_item">Spain</Link>
-                                        <Link to='/exhibition-stall-design-company-in-india/' className="cities_item">India</Link>
-                                        <Link to='/exhibition-stand-design-in-china/' className="cities_item">China</Link>
-                                        <Link to='/exhibition-stand-design-company-in-italy/' className="cities_item">Italy</Link>
-                                        <Link to='/booth-stand-design-company-in-france/' className="cities_item">France</Link>
-                                        <Link to='/exhibition-stand-design-in-thailand/' className="cities_item">Thailand</Link>
-                                    </div>
-                                </div>
-                            </div>
+                          <Majorcitiessidelinks/>
+                         <Stickform/>
 
-                            <StickForm />
+                           
                         </div>
                     </div>
                 </div>
-                <CounterUp />
-                <Form />
-                <Footer />
-
-
+            
 
 
 
