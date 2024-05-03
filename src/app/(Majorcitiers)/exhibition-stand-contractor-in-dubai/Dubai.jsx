@@ -1,19 +1,15 @@
 'use client';
 
-
 import React from "react";
 import Link from "next/link";
-import Image from "next/image";
 import Delivery from '@/Components/Portimage/fastdelivery.png';
 import Peace from '@/Components/Portimage/meditation.png';
 import Promise from '@/Components/Portimage/promise.png';
-import Investment from '@/Components/Portimage/investment.png';
+import Investment from '@/Components/Portimage/Investment.png';
 import Trust from '@/Components/Portimage/friendship.png';
 import Experience from '@/Components/Portimage/experience.png';
-
-import Majorcitiessidelinks from "@/Components/Majorcitiessidelinks";
+import Majorleftcities from "@/Components/Majorleftcities";
 import Stickform from "@/Components/stickform";
-;
 
 
 
@@ -25,7 +21,7 @@ const Dubai = () => {
 
     return (
         <div className="section">
-
+           
             <div className="germany-1 Dubai">
 
                 <div className="container">
@@ -214,7 +210,7 @@ const Dubai = () => {
                                 <div className="german_card cardger">
                                     <div className="german_icon">
 
-                                        <Image src={Delivery} alt="" className="germicons" />
+                                        <img src={Delivery} alt="" className="germicons" />
                                     </div>
                                     <div className="german_content">
                                         <h4>100% On Time Delivery Every time</h4>
@@ -225,7 +221,7 @@ const Dubai = () => {
                                 <div className="german_card card2 cardger" >
                                     <div className="german_icon">
 
-                                        <Image src={Peace} alt="" className="germicons" />
+                                        <img src={Peace} alt="" className="germicons" />
                                     </div>
                                     <div className="german_content">
                                         <h4>Peace Of Mind</h4>
@@ -236,7 +232,7 @@ const Dubai = () => {
                                 </div>
                                 <div className="german_card cardger">
                                     <div className="german_icon">
-                                        <Image src={Promise} alt="" className="germicons" />
+                                        <img src={Promise} alt="" className="germicons" />
                                     </div>
                                     <div className="german_content">
                                         <h4>Highest Quality Promised</h4>
@@ -246,7 +242,7 @@ const Dubai = () => {
                                 <div className="german_card cardger" >
                                     <div className="german_icon">
 
-                                        <Image src={Investment} alt="" className="germicons" />
+                                        <img src={Investment} alt="" className="germicons" />
                                     </div>
                                     <div className="german_content">
                                         <h4>Cost Effective Services</h4>
@@ -256,7 +252,7 @@ const Dubai = () => {
                                 <div className="german_card card2 cardger" >
                                     <div className="german_icon">
 
-                                        <Image src={Trust} alt="" className="germicons" />
+                                        <img src={Trust} alt="" className="germicons" />
                                     </div>
                                     <div className="german_content">
                                         <h4>Trust.Honesty.Integrity</h4>
@@ -268,7 +264,7 @@ const Dubai = () => {
                                 >
                                     <div className="german_icon">
 
-                                        <Image src={Experience} alt="" className="germicons" />
+                                        <img src={Experience} alt="" className="germicons" />
 
                                     </div>
                                     <div className="german_content">
@@ -285,14 +281,12 @@ const Dubai = () => {
 
                         </div>
                         <div className="col-4 col-m-12">
-                            <Majorcitiessidelinks />
-                            <Stickform />
+                            <Majorleftcities/>
+                            <Stickform/>
                         </div>
                     </div>
                 </div>
-
-
-
+              
 
 
 

@@ -1,10 +1,11 @@
-import React from 'react'
-import Dub from './Dubai';
+import React from 'react';
+import Ital from './Italy';
 
 const page = () => {
   return (
     <div>
-        <Dub/>
+
+        <Ital/>
     </div>
   )
 }

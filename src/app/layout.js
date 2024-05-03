@@ -8,10 +8,12 @@ import '@/app/Arrounworld.css';
 import '@/app/design.css';
 import '@/app/Custom.css';
 import '@/app/germany.css';
+import '@/app/major.css';
 import Counterup from "@/Components/Counterup";
 import Mainform from "@/Components/Mainform";
 import Footer from "@/Components/Footer";
 import Universe from "@/Components/Universe";
+
 
 
 const inter = Inter({ subsets: ["latin"] });

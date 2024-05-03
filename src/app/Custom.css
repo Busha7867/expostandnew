@@ -101,7 +101,8 @@
 
 .custom_list li {
     padding: 3px 0;
-    text-indent: -23px
+    text-indent: -23px;
+    font-size: 15px;
 }
 
 .paracustom {

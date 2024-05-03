@@ -1,0 +1,558 @@
+.glassy,
+.major-head,
+.trade_hide,
+.trade_icon,
+.trades {
+    text-align: center
+}
+
+.major-1 {
+    background: url(../Components/Images/majorback.jpg) top center/cover no-repeat;
+    -webkit-animation: 100s infinite alternate forwards slidein;
+    animation: 100s infinite alternate forwards slidein
+}
+
+@keyframes slidein {
+    from {
+        background-position: top;
+        background-size: 3000px
+    }
+
+    to {
+        background-position: -100px 0;
+        background-size: 2143px
+    }
+}
+
+.majors {
+    font-size: 42px;
+    padding-top: 30%
+}
+
+.para_trade,
+.trade_span {
+    color: #fff;
+    font-size: 1.1rem
+}
+
+.major-head {
+    margin-top: 2rem;
+    margin-bottom: 2rem
+}
+
+.mbox {
+    width: 23%;
+    height: 10rem
+}
+
+.indianflags {
+    width: 120px;
+    height: 120px;
+    object-fit: cover
+}
+
+.trade_video {
+    width: 100%;
+    margin-top: .5rem
+}
+
+.left_tradebox {
+    width: 23%;
+    border-radius: 1rem;
+    margin: 2rem 9px;
+    backdrop-filter: blur(2px);
+    height: 273px;
+    box-shadow: inset 0 0 2000px #565656;
+    filter: blur(-1px)
+}
+
+.trade_img {
+    width: 92%;
+    box-shadow: 9px 8px 6px #7a2b2b7d;
+    border-radius: 1rem;
+    margin: 1rem 10px;
+    border: 3px solid #ff0
+}
+
+.timg2 {
+    border: 3px solid #0ccf8e
+}
+
+.two {
+    background: #0ccf8e !important
+}
+
+.timg3 {
+    border: 3px solid #1994db
+}
+
+.three {
+    background: #1994db !important
+}
+
+.timg4 {
+    border: 3px solid #c9495e
+}
+
+.four {
+    background: #c9495e !important
+}
+
+.trade_span {
+    display: flex;
+    justify-content: center;
+    transform: rotate(91deg);
+    position: relative;
+    z-index: 4;
+    left: 7rem;
+    top: 7rem
+}
+
+.tradebefore_span {
+    background: rgba(255, 255, 0, .705);
+    width: 50%;
+    height: 40%;
+    position: absolute;
+    border-radius: 1rem;
+    top: 7px
+}
+
+.para_trade {
+    font-weight: 600;
+    padding: 0 1rem;
+    position: relative;
+    display: block;
+    cursor: pointer;
+    overflow: hidden
+}
+
+.bloc-tabs ul,
+.trade_para2 {
+    display: flex
+}
+
+.trade_para2 {
+    justify-content: space-between;
+    position: relative
+}
+
+.trade_icon {
+    background: #fff;
+    width: 35px;
+    height: 35px;
+    color: #a8cf45;
+    font-weight: 500;
+    border-radius: 50%;
+    position: relative;
+    top: -2rem;
+    left: 1rem;
+    line-height: 33px
+}
+
+.trade_hide {
+    opacity: 0;
+    font-size: 15px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #fff;
+    background-color: rgba(200, 200, 200, .5);
+    backdrop-filter: blur(2px);
+    width: 300px;
+    height: 300px;
+    -webkit-transition: .4s ease-out;
+    -moz-transition: .4s ease-out;
+    -o-transition: .4s ease-out;
+    -ms-transition: .4s ease-out;
+    transition: .4s ease-out
+}
+
+.bloc_lists li,
+.contact_card,
+.contct_para,
+button {
+    position: relative
+}
+
+.active-tabss::before,
+.bloc-tabs ul li.active::before {
+    content: "";
+    height: 14px;
+    position: absolute;
+    transition: .3s;
+    width: 14px
+}
+
+.para_trade .trade_hide:hover {
+    opacity: 1
+}
+
+.para_trade .trade_hide .hidden {
+    height: 0;
+    opacity: 1;
+    transition-delay: 0s;
+    transition-duration: .4s
+}
+
+.para_trade .trade_hide:hover .hidden {
+    opacity: 1;
+    transform: translateY(100px);
+    -webkit-transform: translateY(100px)
+}
+
+.trades {
+    background: #a8cf45;
+    width: 77%;
+    margin: 0 1.7rem;
+    border-radius: 1rem;
+    padding: 1rem 0
+}
+
+.doubleimg1,
+.doubleimg4 {
+    width: 100%;
+    object-fit: cover
+}
+
+.active-tabss,
+.tabss {
+    border-radius: 0
+}
+
+.ports_image {
+    padding: 0 4px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 1.5rem;
+    grid-template-areas: 'gallery_item1 gallery_item2 gallery_item3'
+}
+
+.portfolioimg {
+    height: 100%;
+    padding: 1rem
+}
+
+.active-tabss {
+    background: #a8cf45;
+    border-bottom: 1px solid transparent
+}
+
+.active-tabss::before {
+    border-style: solid;
+    border-width: 0 15px 15px 0;
+    border-color: transparent #a0070a transparent transparent;
+    right: 12px;
+    top: 18px;
+    transform: rotate(28px)
+}
+
+.porttabs {
+    margin-left: -7rem
+}
+
+.doubleimg4 {
+    height: 66%
+}
+
+.doubleimg1 {
+    height: 100%
+}
+
+.bloc-tabs ul li.active {
+    background: #a8cf45;
+    border-bottom: 1px solid transparent;
+    border-radius: 1rem;
+    color: #fff;
+    box-shadow: 1px 2px 4px 1px rgba(168, 207, 69, .82)
+}
+
+.bloc-tabs ul li.active::before {
+    border-style: solid;
+    border-width: 0 15px 15px 0;
+    border-color: transparent #a8cf45 transparent transparent;
+    left: 0;
+    top: 33px;
+    transform: rotate(-1deg)
+}
+
+.bloc_lists li {
+    padding: 14px 42px;
+    background-color: #5656566e;
+    margin: 0 5px;
+    border-radius: 1rem;
+    box-shadow: 3px 3px 8px -2px #57667e
+}
+
+.contact-1 {
+    background: linear-gradient(rgba(225, 225, 255, .1), rgb(225 225 225 / 7%)), url(/src/images/contactback.png) top center/cover no-repeat
+}
+
+.glassy {
+    background: rgba(202, 247, 121, .2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, .1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, .3);
+    margin-top: 20%;
+    margin-bottom: 4rem
+}
+
+.contact_head {
+    font-size: 3rem;
+    margin-top: 4rem;
+    color: #fff
+}
+
+.contact_para {
+    font-size: 2rem;
+    margin: 2rem 0;
+    color: #fff
+}
+
+.contact_head img {
+    position: absolute;
+    left: -4px;
+    top: -73px
+}
+
+.contactcards {
+    display: grid;
+    grid-template-columns: 365px 286px
+}
+
+.carddds {
+    height: 233px !important;
+    width: 358px !important;
+    border-radius: 1rem;
+    margin-bottom: -1rem
+}
+
+.uscontact {
+    padding: 69px 21px !important;
+    text-align: start !important
+}
+
+.contct_para {
+    z-index: 2;
+    color: #fff;
+    font-size: 1.3rem;
+    margin-top: 1rem;
+    letter-spacing: 3px
+}
+
+.contacticon {
+    color: #fff;
+    margin: 7px 6px
+}
+
+.Contact_links a {
+    color: #fff
+}
+
+.contact_card {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 350px;
+    height: 300px;
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0 35px 80px rgba(0, 0, 0, .15);
+    margin: 20px;
+    transition: .5s
+}
+
+.contact_flex {
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    column-gap: 197px
+}
+
+.contact_card:hover {
+    height: 411px
+}
+
+.contact_card .imgbx {
+    position: absolute;
+    width: 300px;
+    height: 220px;
+    background: #a8cf45;
+    top: 20px;
+    border-radius: 12px;
+    transition: .5s
+}
+
+.contact_card .imgbx .contacticon {
+    position: absolute;
+    color: #a8cf45;
+    font-size: 3rem;
+    left: 8rem;
+    top: -2rem
+}
+
+.card_images {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 1rem
+}
+
+.card_para {
+    position: absolute;
+    top: 5rem;
+    left: 5rem;
+    color: #fff;
+    font-size: 26px;
+    text-shadow: 0 0 #000;
+    font-weight: 600;
+    backdrop-filter: blur(33px);
+    padding: 2px 27px;
+    border-radius: 1rem
+}
+
+.contact_flex .contact_card:hover .imgbx {
+    top: -21px;
+    scale: 0.75;
+    box-shadow: 0 15px 45px rgba(0, 0, 0, .3)
+}
+
+.contact_flex .contact_card .contact_content {
+    position: absolute;
+    width: 100%;
+    padding: 0 30px;
+    top: 252px;
+    height: 25px;
+    overflow: hidden;
+    transition: .5s
+}
+
+.contact_flex .contact_card:hover .contact_content {
+    height: 250px;
+    top: 189px
+}
+
+.contact-lists .contacticonss {
+    color: #a8cf45;
+    margin: 7px 0
+}
+
+.contact-lists a {
+    color: #000;
+    font-weight: 500;
+    font-size: 1rem;
+    padding: 10px
+}
+
+.contact-lists {
+    text-indent: -14px;
+    margin-left: 28px
+}
+
+.mfp-arrow-right {
+    left: 100%;
+    transform: translateX(-100%)
+}
+
+.serviceBox {
+    color: #fff;
+    background: linear-gradient(#d0d50f, #7fce11);
+    font-family: 'Maven Pro', sans-serif;
+    text-align: center;
+    padding: 20px;
+    border-radius: 40px;
+    margin: 0 10px
+}
+
+.serviceBox .service-icon {
+    margin: 0 auto 20px
+}
+
+.serviceBox .title {
+    color: #7fce11;
+    background-color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 10px 0;
+    margin: 0 -20px 15px
+}
+
+.serviceBox .description {
+    font-size: 15px;
+    line-height: 22px;
+    margin: 0
+}
+
+.serviceBox.green {
+    background: linear-gradient(#109492, #008a65)
+}
+
+.serviceBox.green .title {
+    color: #008a65
+}
+
+.serviceBox.blue {
+    background: linear-gradient(#1f96ba, #27436d)
+}
+
+.serviceBox.blue .title {
+    color: #27436d
+}
+
+.serviceBox.purple {
+    background: linear-gradient(#c4276b, #473a82)
+}
+
+.serviceBox.purple .title {
+    color: #3a2885
+}
+
+@media only screen and (max-width:990px) {
+    .serviceBox {
+        margin: 0 0 30px
+    }
+}
+
+.casestudy2 {
+    margin: 40px 0
+}
+
+.case_btn {
+    position: relative;
+    bottom: 15%;
+    left: -7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.case-quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+}
+
+.case_quot {
+    padding: 10px;
+    font-size: 18px;
+    border: none;
+    outline: 0;
+    color: #fff;
+    background: #a8cf45;
+    cursor: pointer;
+    z-index: 0;
+    border-radius: 50px;
+    font-weight: 400;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    position: relative;
+    left: 7rem;
+    top: 10px
+}
+
+.bole-1 {
+    background: linear-gradient(rgb(168 207 69 / 52%), rgb(168 207 70 / 77%)), url(../Components/Images/Sketch.webp) center/cover no-repeat
+}

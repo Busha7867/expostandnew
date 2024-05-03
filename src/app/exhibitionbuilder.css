@@ -420,7 +420,8 @@
 
 .tab__label {
     justify-content: space-between;
-    padding: 1rem
+    padding: 1rem;
+    font-size: 16px;
 }
 
 .tab__label::after {
@@ -438,7 +439,8 @@
 
 .tab__content p {
     margin: 0;
-    padding: 1rem
+    padding: 1rem;
+    font-size: 15px;
 }
 
 .tab__close {

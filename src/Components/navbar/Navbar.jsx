@@ -199,7 +199,7 @@ const Navbar = () => {
 
                                     <li className='global_links'><Link href='https://www.expostandservice.us/trade-show-booth-design/' onClick={closeMobileMenu} >USA Trade Show</Link></li>
 
-                                    <li className='global_links'><Link href='/exhibition-stand-contractor-in-dubai/' onClick={closeMobileMenu} >UAE Exhibition</Link></li>
+                                    <li className='global_links'><Link href='/exhibition-stand-builders-in-uae/' onClick={closeMobileMenu} >UAE Exhibition</Link></li>
 
 
 
